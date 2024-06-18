@@ -1,3 +1,5 @@
+import styles from "../../styles/button.module.css";
+
 export default function Button({
   type,
   text,
@@ -15,7 +17,11 @@ export default function Button({
     <button
       type={type}
       onClick={onClick}
-      className={`p-2 w-50 bg-pink-700 text-white rounded hover:text-pink-700 hover:bg-white mx-auto hover:border-pink-700 border-2 transition-colors duration-300 ease-in-out cursor-pointer ${className}`}
+      style={{
+        backgroundColor: "var(--blue-color)",
+        color: "var(--white-color)",
+      }}
+      className={`${styles.buttonBase} ${className}`}
       aria-label={text}
       disabled={disabled}>
       {text}

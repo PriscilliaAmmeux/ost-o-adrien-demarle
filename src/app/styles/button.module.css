@@ -1,0 +1,15 @@
+.buttonBase {
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 0.25rem;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonBase:hover {
+  background-color: white;
+  color: var(--black-color);
+  border-color: var(--blue-color);
+}
