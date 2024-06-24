@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import Layout from "./ui/layout/layout";
+import Header from "./ui/header/header";
 
 export const metadata: Metadata = {
   title: "",
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <Layout>
       <main className="flex flex-col items-center justify-between">
+        <Header />
         <section className="w-full flex flex-col items-center justify-center">
           <Presentation />
         </section>
