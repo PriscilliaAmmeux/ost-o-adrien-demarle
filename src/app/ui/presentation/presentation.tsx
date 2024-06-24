@@ -33,21 +33,28 @@ export default function Presentation() {
           <li>en ostéopathie pour adulte et seniors.</li>
         </ul>
 
-        <p className="text-lg leading-relaxed mb-5">
-          Je me suis formé dans différents domaines:
+        <p className="italic text-base md:text-lg mb-5">
+          Diplômes et formations :
         </p>
-        <ul>
+        <ul className="list-disc list-inside mb-5">
           <li>
-            <strong>2020</strong> : fdgfdgfgfdfd
+            <strong>années ? </strong>Perfectionnement et inclusion de notre
+            traitement ostéopathique dans la démarche de prévention des
+            entreprises (TMS) - Reflex Ostéo.
           </li>
           <li>
-            <strong>2020</strong>: gfdgdfd
+            <strong>années ? </strong> Ostéopathie pédiatrique : approche
+            ostéopathique des bébés niveau 1, 2 et 3 (Dany Heintz, Eric Simon)
+            avec DSTH (homéopathie) - Ostéo-bébé.
           </li>
           <li>
-            <strong>2020</strong> : gfdg
+            <strong>années ? </strong> Expériences ostéopathiques - Marc Van
+            Belleghem et Denis Averland.
           </li>
           <li>
-            <strong>2020</strong> : gfdgfdbnb{" "}
+            {" "}
+            <strong>Année ?</strong>Diplôme d&apos;ostéopathe (D.O.) - ISO
+            Lille.
           </li>
         </ul>
       </div>
