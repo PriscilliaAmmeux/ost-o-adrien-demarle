@@ -26,7 +26,7 @@ export default function InfoContact() {
           <strong>Email:</strong> {contactDetails.email}
         </p>
         <p className="mb-2">
-          <strong>Horaires d'ouverture du cabinet :</strong>{" "}
+          <strong>Horaires d&apos;ouverture du cabinet :</strong>{" "}
           {contactDetails.openingHours}
         </p>
         <p>
