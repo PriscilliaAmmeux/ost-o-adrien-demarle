@@ -17,10 +17,6 @@ export default function Button({
     <button
       type={type}
       onClick={onClick}
-      style={{
-        backgroundColor: "var(--blue-color)",
-        color: "var(--white-color)",
-      }}
       className={`${styles.buttonBase} ${className}`}
       aria-label={text}
       disabled={disabled}>
