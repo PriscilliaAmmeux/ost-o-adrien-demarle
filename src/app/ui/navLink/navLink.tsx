@@ -1,16 +1,29 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 interface NavLinkProps {
   href: string;
   title: string;
-  className?: string;
+  isActive: boolean;
 }
 
-export default function NavLink({ href, title, className }: NavLinkProps) {
+export default function NavLink({ href, title }: NavLinkProps) {
+  const pathname = usePathname();
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    setIsActive(pathname === href);
+  }, [pathname, href]);
+
   return (
     <Link href={href} target="_self" rel="noopener noreferrer">
       <h1
-        className={`text-xl font-semibold hover:text-blue-600 mr-6 ${className}`}>
+        style={{
+          color: isActive ? "var(--blue-color)" : "var(--black-color)",
+        }}>
         {title}
       </h1>
     </Link>
