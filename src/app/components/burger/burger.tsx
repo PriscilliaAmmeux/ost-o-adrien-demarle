@@ -25,13 +25,14 @@ export default function Burger() {
       </div>
 
       <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ""}`}>
-        <NavLink className="text-white pb-2" href="/" title="Accueil" />
+        <NavLink href="/" title="Accueil" isActive={true} />
         <NavLink
-          className="text-white pb-2"
-          href="/prestations"
-          title="Prestations"
+          href="/consultation"
+          title="Motifs de consultations"
+          isActive={true}
         />
-        <NavLink className="text-white" href="/contact" title="Contact" />
+        <NavLink href="/price" title="Tarifs" isActive={true} />
+        <NavLink href="/contact" title="Contact" isActive={true} />
       </div>
     </section>
   );
