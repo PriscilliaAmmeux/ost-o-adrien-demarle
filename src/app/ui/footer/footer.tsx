@@ -1,21 +1,24 @@
-import { GiLadybug } from "react-icons/gi";
+import FrameMaps from "../frameMaps/frameMaps";
+import InfoContact from "../infoContact/infoContact";
+import PubMe from "../pubMe/pubMe";
 
 export default function Footer() {
   return (
-    <footer className="w-full sm:p-6 md:p-10 flex flex-col items-center justify-center pt-4 pb-4 px-4 gap-2 text-center md:text-left text-sm">
-      <p className="italic flex flex-col md:flex-row gap-2 items-center">
-        Créé par <span className="font-bold ">Priscillia Ammeux</span>
-      </p>
-      <p>
-        Conceptrice et Développeuse d&apos;Applications:
-        <a
-          href="http://www.priscillia-ammeux-portfolio.fr"
-          className="pl-2 hover:underline hover:font-semibold"
-          target="_blank"
-          rel="noopener noreferrer">
-          www.priscillia-ammeux-portfolio.fr
-        </a>
-      </p>
+    <footer
+      style={{ background: "var(--blue-color)" }}
+      className="w-full text-white flex flex-col items-center justify-center p-6 md:p-10 text-center md:text-left text-sm space-y-6">
+      <section className="flex flex-row justify-center items-start gap-4">
+        <div className="w-1/2">
+          <FrameMaps />
+        </div>
+        <div className="w-1/2">
+          <InfoContact />
+        </div>
+      </section>
+
+      <section className="space-y-2">
+        <PubMe />
+      </section>
     </footer>
   );
 }
