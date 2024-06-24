@@ -15,7 +15,7 @@ export default function Presentation() {
           Votre ostéopathe sur Comines
         </h2>
         <p className="text-base md:text-lg leading-relaxed mb-5">
-          J'ai le plaisir de vous accueillir à Comines depuis ...
+          J&apos;ai le plaisir de vous accueillir à Comines depuis ...
         </p>
         <p className="italic text-base md:text-lg mb-5">Qui suis je ?</p>
         <p className="text-lg leading-relaxed mb-5">
