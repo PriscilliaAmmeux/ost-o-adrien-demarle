@@ -13,7 +13,7 @@ export default function Header({ className }: HeaderProps) {
 
   return (
     <header
-      className={`${styles.headerBackground} w-full flex flex-col md:flex-row justify-around items-center p-4 relative ${className}`}
+      className={`${styles.headerBackground} bg-transparent w-full flex flex-col md:flex-row justify-around items-center p-4 relative ${className}`}
       style={{
         width: "100%",
         height: "300px",
