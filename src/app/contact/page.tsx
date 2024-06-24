@@ -1,5 +1,6 @@
 import Form from "../components/form/form";
-import InfoContact from "../components/infoContact/infoContact";
+import InfoContact from "../ui/infoContact/infoContact";
+
 import Layout from "../ui/layout/layout";
 
 export default function Page() {
