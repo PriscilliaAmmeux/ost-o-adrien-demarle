@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../footer/footer";
-
 import Navigation from "../navigation/navigation";
 
 interface LayoutProps {
