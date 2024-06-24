@@ -19,14 +19,14 @@ export default function Presentation() {
         </p>
         <p className="italic text-base md:text-lg mb-5">Qui suis je ?</p>
         <p className="text-lg leading-relaxed mb-5">
-          Je suis diplômé de l'École de Lille après une formation de 5 ans et
-          spécialisé :
+          Je suis diplômé de l&apos;École de Lille après une formation de 5 ans
+          et spécialisé :
         </p>
         <ul className="list-disc list-inside mb-5">
           <li>en ostéopathie pour bébés,</li>
           <li>
             en troubles musculo-squelettiques (TMS) dans le milieu de
-            l'entreprise,
+            l&apos;entreprise,
           </li>
           <li>en ostéopathie du sport,</li>
           <li>en ostéopathie pour femmes enceintes.</li>
