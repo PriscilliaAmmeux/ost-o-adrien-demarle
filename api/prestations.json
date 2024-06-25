@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "image": "",
+    "image": "baby.jpg",
+    
     "title": "Enfants, adolescents, bébés",
     "text": [
       {
@@ -17,7 +18,7 @@
   },
   {
     "id": 2,
-    "image": "",
+    "image": "pregnant.jpg",
     "title": "Femmes enceintes",
     "text": [
       {
@@ -33,7 +34,7 @@
   },
   {
     "id": 3,
-    "image": "",
+    "image": "sport.jpg",
     "title": "Sportifs",
     "text": [
       {
@@ -49,7 +50,7 @@
   },
   {
     "id": 4,
-    "image": "",
+    "image": "man.jpg",
     "title": "Adultes",
     "text": [
       {
@@ -65,8 +66,8 @@
   },
   {
     "id": 5,
-    "image": "",
-    "title": "Séniors",
+    "image": "senior.jpg",
+    "title": "Seniors",
     "text": [
       {
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
@@ -81,7 +82,7 @@
   },
   {
     "id": 6,
-    "image": "",
+    "image": "man.jpg",
     "title": "Qualité de Vie au Travail (QVT)",
     "text": [
       {
