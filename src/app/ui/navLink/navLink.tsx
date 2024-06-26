@@ -22,7 +22,7 @@ export default function NavLink({ href, title }: NavLinkProps) {
     <Link href={href} target="_self" rel="noopener noreferrer">
       <h1
         style={{
-          color: isActive ? "var(--blue-color)" : "var(--black-color)",
+          color: isActive ? "var(--blue-color-light)" : "var(--black-color)",
         }}>
         {title}
       </h1>

@@ -1,98 +1,157 @@
 [
   {
     "id": 1,
-    "image": "baby.jpg",
-    
-    "title": "Enfants, adolescents, bébés",
-    "text": [
+    "title": "L'ostéopathie pour les nourrissons et enfants",
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Asymétrie de la tête, torticolis congénitaux, difficultés à tourner la tête d’un côté, plagiocéphalie."
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Sommeil de mauvaise qualité."
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Reflux gastro-oesophagien (RGO), régurgitations, vomissements, troubles de la succion."
+      },
+      { "text": "Accouchement difficile, sous péridurale, césarienne" },
+      { "text": "Présentation par le siège, le front ou la face" },
+      {
+        "text": "Utilisation de spatules, forceps, ventouse, appui sur le ventre de la mère"
+      },
+      { "text": "Cordon enroulé autour du cou" },
+      {
+        "text": "Manque d’oxygène à la naissance, souffrance fœtale, réanimation…"
+      },
+      { "text": "Coliques, constipation, mauvaise digestion, " },
+      { "text": "Canal lacrymal bouché" },
+      { "text": "Bébé louche (strabisme)" },
+      {
+        "text": "Port d’un appareil dentaire…Pour minimiser les effets d’un appareil dentaire."
+      },
+      { "text": "Suites d’opérations..." },
+      { "text": "Maux de tête,..." },
+      { "text": "otites ou rhinites à répétition." },
+      { "text": "Scoliose, attitude scoliotique, cyphose ou hyperlordose  " },
+      { "text": "Troubles du sommeil" },
+      {
+        "text": "Après tout traumatisme (chute, entorse, déchirure ligamentaire, …)"
+      },
+      { "text": "Après une intervention chirurgicale" },
+      {
+        "text": "Pour limiter les douleurs de dos et articulaires liées à la croissance. (maladie d'Osgood-Schlater, maladie de Sever, maladie de Scheurermann, ...)"
       }
     ]
   },
   {
     "id": 2,
-    "image": "pregnant.jpg",
-    "title": "Femmes enceintes",
-    "text": [
+    "title": "L'ostéopathie pour les femmes enceintes",
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Prévention,, préparation de l’accouchement, bilan post-partum…"
+      },
+      { "text": "Maux de têtes,…" },
+      { "text": "Certains troubles circulatoires" },
+      { "text": "Douleurs abdominales, constipation, ballonnements,…" },
+      {
+        "text": "Douleurs de dos, bassin, coccyx, épaules, cervicales, lombalgie, cervicalgies."
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs articulaires et ligamentaires (syndrome de Lacomme)."
       },
+      { "text": "Nausées" },
+      { "text": "Douleurs dorsales" },
+      { "text": "Troubles respiratoires" },
+      { "text": "Douleurs costales" },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs ligamentaires utérines (Sensation de tiraillement dans le bas ventre ou sur les côtés)"
+      },
+      { "text": "Le bébé ne se retourne pas" },
+      { "text": "Troubles circulatoires (jambes lourdes, hémorroïdes)" },
+      {
+        "text": "Séquelles d’opération (césarienne) et de traumatismes (accident de voiture)"
       }
     ]
   },
   {
     "id": 3,
-    "image": "sport.jpg",
-    "title": "Sportifs",
-    "text": [
+    "title": "L'ostéopathie pour les sportifs",
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs de dos, douleurs articulaires…"
+      },
+      { "text": "Entorses, tendinites, pubalgies,…" },
+      {
+        "text": "Suite à un traumatisme, une entorse, une fracture, une déchirure ligamentaire ou musculaire, une intervention chirurgicale, ..."
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs articulaires et/ou musculaires (élongation, périostite, syndrome de l'essuie glace, syndrome des loges, rachialgie, pubalgie, ...)"
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
-      }
+        "text": "Tendinites (tendon d'achille, rotulienne, pubalgies, périarthrite, tennis elbow ou golfer elbow, ...) "
+      },
+      {
+        "text": "Prévenir l’usure du corps en évitant l’hyper-sollicitation de certaines zones et en rééquilibrant les axes articulaires perturbés."
+      },
+      { "text": "Lumbago" },
+      { "text": "Tendinites à répétition (tennis elbow, tendon d’Achille…)" },
+      { "text": "Pubalgie" },
+      { "text": "Difficulté d’exécution de certains gestes techniques" }
     ]
   },
   {
     "id": 4,
-    "image": "man.jpg",
-    "title": "Adultes",
-    "text": [
+    "title": "L'ostéopathie pour les adultes",
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs de dos: lombalgies, lumbago, dorsalgies, cervicalgies, torticolis."
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Névralgies: sciatique, cruralgie, névralgie cervico-brachiale (ncb), névralgie intercostale."
       },
+      { "text": "Douleurs pelviennes (sacrum, coccyx)." },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
-      }
+        "text": "Douleurs articulaires (cheville, genou, hanche, épaule, coude, poignet, main)."
+      },
+      { "text": "Suite à un choc émotionnel." },
+      { "text": "Stress, nervosité, anxiété, fatigue, baisse d'énergie." },
+      { "text": "Troubles du sommeil." },
+      { "text": "Barre en bas du dos, lumbago" },
+      { "text": "Douleurs dorsales" },
+      { "text": "Douleurs aux épaules" },
+      { "text": "Cervicalgie" },
+      { "text": "Tendinites" },
+      {
+        "text": "Troubles musculo-squelettiques liés aux mouvements répétitifs"
+      },
+      { "text": "Maux de tête" },
+      { "text": "Traumatismes (entorse, chute, accident…)" },
+      { "text": "Suivi post-opératoire" }
     ]
   },
   {
     "id": 5,
-    "image": "senior.jpg",
-    "title": "Seniors",
-    "text": [
+    "title": "L'ostéopathie pour les seniors",
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Douleurs vertébrales, cervicales, dorsales, lombaires ou coccygiennes"
       },
+      { "text": "Douleurs articulaires (genou, hanche, coude, poignet…)" },
+      { "text": "Sciatique, névralgies" },
+      { "text": "Maux de tête, certains vertiges" },
+      { "text": "Chutes, traumatismes divers" },
+      { "text": "Arthrose" },
+      { "text": "Suites opératoires (cicatrices, prothèse hanche/genou…)" },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "Certaines formes de maux de tête, de vertiges et d'acouphènes."
       },
-      {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
-      }
+      { "text": "Varices, troubles du retour veineux." }
     ]
   },
   {
     "id": 6,
-    "image": "man.jpg",
     "title": "Qualité de Vie au Travail (QVT)",
-    "text": [
+    "list": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+        "text": "En plus de de l'activité au cabinet, je me déplace aussi en entreprise afin de proposer des séances d'ostéopathie. Contactez moi pour en savoir plus"
       }
     ]
   }

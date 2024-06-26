@@ -1,17 +1,17 @@
 .buttonBase {
   padding: 0.5rem 1rem;
   width: auto;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 2px solid transparent;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
   cursor: pointer;
-  background-color: var(--blue-color);
+  background-color: var(--blue-color-light);
   color: var(--white-color);
 }
 
 .buttonBase:hover {
   background-color: var(--white-color);
   color: var(--black-color);
-  border-color: var(--blue-color);
+  border-color: var(--blue-color-light);
 }

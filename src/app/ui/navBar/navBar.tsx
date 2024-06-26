@@ -1,4 +1,5 @@
 import NavLink from "@/app/ui/navLink/navLink";
+import Appointment from "../appointment/appointment";
 
 export default function navBar() {
   return (
@@ -12,13 +13,13 @@ export default function navBar() {
         />{" "}
         <div
           className="flex font-bold flex-col justify-center "
-          style={{ color: "var(--blue-color)" }}>
+          style={{ color: "var(--blue-color-light)" }}>
           <p>Ostéopathe</p>
           <p>Adrien Demarle</p>
         </div>
       </div>
 
-      <nav className="flex space-x-4">
+      <nav className="flex items-center space-x-4">
         <NavLink href="/" title="Accueil" isActive={true} />
         <NavLink
           href="/consultation"
@@ -27,6 +28,7 @@ export default function navBar() {
         />
         <NavLink href="/price" title="Tarifs" isActive={true} />
         <NavLink href="/contact" title="Contact" isActive={true} />
+        <Appointment />
       </nav>
     </section>
   );
