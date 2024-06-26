@@ -18,13 +18,13 @@ export default function Page() {
           <ul className="list-disc list-inside">
             <li>
               Savez-vous que plus de 85% des mutuelles prennent en charge les
-              soins d’ostéopathie et souvent à hauteur de plusieurs séances par
-              an.
+              soins d`&lsquo;ostéopathie et souvent à hauteur de plusieurs
+              séances par an.
             </li>
             <li>Contactez la vôtre afin de connaître vos droits !</li>
             <li>
-              En fin de consultation, je vous remettrai une note d'honoraire à
-              leur envoyer.
+              En fin de consultation, je vous remettrai une note
+              d`&lsquo;honoraire à leur envoyer.
             </li>
           </ul>
         </SectionPrice>
