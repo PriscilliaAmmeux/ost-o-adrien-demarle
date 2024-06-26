@@ -45,10 +45,17 @@ export default function InfoContact() {
         <p className="mb-2">
           <strong>Parking public :</strong> {contactDetails.publicParking}
         </p>
-        <p>
+        <p className="mb-2">
           <strong>Informations pratiques :</strong>{" "}
           {contactDetails.practicalInfo}
         </p>
+        <p className="mb-2">
+          <strong>Adeli</strong> :590011581
+        </p>
+        <p className="mb-2">
+          <strong>Siret</strong> : 84130121100014{" "}
+        </p>
+        <p>Politiques de confidentialités</p>
       </div>
     </div>
   );

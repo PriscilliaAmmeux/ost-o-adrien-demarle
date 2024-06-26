@@ -1,5 +1,6 @@
 import Button from "../button/button";
 import styles from "../../styles/header.module.css";
+import Appointment from "../appointment/appointment";
 
 interface HeaderProps {
   className?: string;
@@ -16,7 +17,7 @@ export default function Header({ className }: HeaderProps) {
       className={`${styles.headerBackground} bg-transparent w-full flex flex-col md:flex-row justify-around items-center p-4 relative ${className}`}
       style={{
         width: "100%",
-        height: "300px",
+        height: "600px",
         backgroundImage: `url(${images.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -27,11 +28,7 @@ export default function Header({ className }: HeaderProps) {
           Adrien Demarle - Ostéopathe
         </h1>
         <div className="flex gap-10">
-          <Button
-            type={"button"}
-            text={"Planifier un RDV"}
-            aria-label={"Cliquez sur ce bouton pour planifier un rendez-vous"}
-          />
+          <Appointment />
           <Button
             type={"button"}
             text={"Contacter"}

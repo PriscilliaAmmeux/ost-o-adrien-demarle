@@ -6,12 +6,12 @@ export default function Presentation() {
       <div className="md:w-1/2 md:pr-10">
         <h1
           className="text-2xl md:text-4xl font-bold mb-5"
-          style={{ color: "var(--blue-color)", fontFamily: "cursive" }}>
+          style={{ color: "var(--blue-color-light)", fontFamily: "cursive" }}>
           Adrien Demarle
         </h1>
         <h2
           className="text-xl md:text-3xl font-bold mb-5"
-          style={{ color: "var(--blue-color)" }}>
+          style={{ color: "var(--blue-color-light)" }}>
           Votre ostéopathe sur Comines
         </h2>
         <p className="text-base md:text-lg leading-relaxed mb-5">
