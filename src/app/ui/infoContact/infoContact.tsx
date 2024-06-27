@@ -1,11 +1,17 @@
-const contactDetails = {
-  contactNumber: "06 37 05 96 79 (mon numéro direct)",
-  openingHours: "du lundi au samedi de 8h à 21h.",
-  nearbyCities:
-    "Deûlémont, Wervicq Sud, Wervicq, Quesnoy-sur-Deule, Warneton, Bousbecque, Linselles, Frelinghien, Comines, Armentières, Verlinghem",
-};
+import { CiHome } from "react-icons/ci";
+import ItemsContact from "../itemsContact/itemsContact";
+import { IoIosInformationCircleOutline } from "react-icons/io";
 
-const infoDetails = [
+const infoPractice = [
+  {
+    title: "Horaires d'ouvertures du cabinet",
+    text: "du lundi au samedi de 8h à 21h.",
+  },
+  {
+    title: "Proximités villes",
+    text: "Deûlémont, Wervicq Sud, Wervicq, Quesnoy-sur-Deule, Warneton, Bousbecque, Linselles, Frelinghien, Comines, Armentières, Verlinghem",
+  },
+
   {
     title: "Parking public",
     text: "8 Rue du Vieil Dieu, Comines.",
@@ -13,6 +19,13 @@ const infoDetails = [
   {
     title: "Informations pratiques",
     text: "Rez-de-chaussée.",
+  },
+];
+
+const infoDetails = [
+  {
+    title: "Contact",
+    text: "06 37 05 96 79 (mon numéro direct)",
   },
   {
     title: "Adeli",
@@ -26,13 +39,13 @@ const infoDetails = [
 
 export default function InfoContact() {
   return (
-    <section className="flex flex-wrap">
-      <section
-        className="flex-1 p-4 md:p-8 bg-white shadow rounded-lg mr-4"
-        style={{ color: "var(--black-color)", width: "300", height: "350" }}>
-        <p className="mb-2">
-          <strong>Contact:</strong> {contactDetails.contactNumber}
-        </p>
+    <section className="flex flex-wrap text-white">
+      <ItemsContact title="Le cabinet" info={infoPractice} Icon={CiHome} />
+
+      <ItemsContact
+        title="Contact & Informations"
+        info={infoDetails}
+        Icon={IoIosInformationCircleOutline}>
         <p className="mb-2">
           <strong>Email:</strong>{" "}
           <a
@@ -41,25 +54,7 @@ export default function InfoContact() {
             demarle.adrien.osteopathe@gmail.com
           </a>
         </p>
-        <p className="mb-2">
-          <strong>Horaires d&apos;ouverture du cabinet :</strong>{" "}
-          {contactDetails.openingHours}
-        </p>
-        <p>
-          <strong>Proximités villes :</strong> {contactDetails.nearbyCities}
-        </p>
-      </section>
-      <section
-        className="flex-1 p-4 md:p-8 bg-white shadow rounded-lg"
-        style={{ color: "var(--black-color)", width: "300", height: "350" }}>
-        <ul>
-          {infoDetails.map((info) => (
-            <li key={info.title} className="mb-2">
-              <strong>{info.title}:</strong> {info.text}
-            </li>
-          ))}
-        </ul>
-      </section>
+      </ItemsContact>
     </section>
   );
 }
