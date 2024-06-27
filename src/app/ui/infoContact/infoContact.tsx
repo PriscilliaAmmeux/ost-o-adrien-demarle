@@ -55,7 +55,6 @@ export default function InfoContact() {
         <p className="mb-2">
           <strong>Siret</strong> : 84130121100014{" "}
         </p>
-        <p>Politiques de confidentialités</p>
       </div>
     </div>
   );
