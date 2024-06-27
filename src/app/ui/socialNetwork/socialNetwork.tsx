@@ -8,7 +8,7 @@ export default function SocialNetwork() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Link to LinkedIn profile"
-        className="cursor-pointer hover:text-pink-300">
+        className="cursor-pointer hover:text-blue-900 transition-colors duration-300 ease-in-out">
         <FaLinkedin size={24} className="text-current" />
       </a>
     </section>
