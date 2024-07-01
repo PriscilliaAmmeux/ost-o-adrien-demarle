@@ -21,6 +21,7 @@ export default function NavLink({ href, title }: NavLinkProps) {
   return (
     <Link href={href} target="_self" rel="noopener noreferrer">
       <h1
+        className="hover:cursor-pointer hover:font-bold hover:text-blue-900"
         style={{
           color: isActive ? "var(--blue-color-light)" : "var(--black-color)",
         }}>
