@@ -1,4 +1,3 @@
-import Button from "../button/button";
 import styles from "../../styles/header.module.css";
 import Appointment from "../appointment/appointment";
 

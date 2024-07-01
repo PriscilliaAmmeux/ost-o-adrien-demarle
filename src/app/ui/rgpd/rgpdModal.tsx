@@ -11,9 +11,8 @@ export default function RgpdModal({ onClose }: FooterProps) {
       <div className="bg-white p-6 rounded-lg shadow-lg w-80 text-center">
         <Title title="Politique de Confidentialité" />
         <p className="mb-4">
-          Lors de l&apos;envoi du formulaire de contact, les données conservées
-          le sont à des fins professionnelles dans le cadre de mon activité
-          seulement.
+          Les données conservées le sont à des fins professionnelles dans le
+          cadre de mon activité seulement.
         </p>
         <p className="mb-4">
           Les données ne sont pas utilisées à des fins commerciales, ni
@@ -23,7 +22,13 @@ export default function RgpdModal({ onClose }: FooterProps) {
           Vous pouvez à tout moment demander la suppression de vos données en me
           contactant par mail.
         </p>
-        <Button onClick={onClose} type={"button"} text={"Fermer"} />
+        <Button
+          onClick={onClose}
+          type={"button"}
+          ariaLabel="Cliquez sur le bouton pour fermer la modal"
+          text={"Fermer"}
+          buttonStyle="base"
+        />
       </div>
     </section>
   );

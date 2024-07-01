@@ -29,7 +29,7 @@
       },
       { "text": "Suites d’opérations..." },
       { "text": "Maux de tête,..." },
-      { "text": "otites ou rhinites à répétition." },
+      { "text": "Otites ou rhinites à répétition." },
       { "text": "Scoliose, attitude scoliotique, cyphose ou hyperlordose  " },
       { "text": "Troubles du sommeil" },
       {
@@ -52,15 +52,13 @@
       { "text": "Certains troubles circulatoires" },
       { "text": "Douleurs abdominales, constipation, ballonnements,…" },
       {
-        "text": "Douleurs de dos, bassin, coccyx, épaules, cervicales, lombalgie, cervicalgies."
+        "text": "Douleurs de dos, dorsales, costales, bassin, coccyx, épaules, cervicales, lombalgie, cervicalgies."
       },
       {
         "text": "Douleurs articulaires et ligamentaires (syndrome de Lacomme)."
       },
       { "text": "Nausées" },
-      { "text": "Douleurs dorsales" },
       { "text": "Troubles respiratoires" },
-      { "text": "Douleurs costales" },
       {
         "text": "Douleurs ligamentaires utérines (Sensation de tiraillement dans le bas ventre ou sur les côtés)"
       },
@@ -86,13 +84,10 @@
         "text": "Douleurs articulaires et/ou musculaires (élongation, périostite, syndrome de l'essuie glace, syndrome des loges, rachialgie, pubalgie, ...)"
       },
       {
-        "text": "Tendinites (tendon d'achille, rotulienne, pubalgies, périarthrite, tennis elbow ou golfer elbow, ...) "
-      },
-      {
         "text": "Prévenir l’usure du corps en évitant l’hyper-sollicitation de certaines zones et en rééquilibrant les axes articulaires perturbés."
       },
       { "text": "Lumbago" },
-      { "text": "Tendinites à répétition (tennis elbow, tendon d’Achille…)" },
+
       { "text": "Pubalgie" },
       { "text": "Difficulté d’exécution de certains gestes techniques" }
     ]
@@ -102,21 +97,17 @@
     "title": "L'ostéopathie pour les adultes",
     "list": [
       {
-        "text": "Douleurs de dos: lombalgies, lumbago, dorsalgies, cervicalgies, torticolis."
+        "text": "Douleurs: épaules, dorsales, lombalgies, lumbago, dorsalgies, cervicalgies, torticolis, articulaires (cheville, genou, hanche, épaule, coude, poignet, main)."
       },
       {
         "text": "Névralgies: sciatique, cruralgie, névralgie cervico-brachiale (ncb), névralgie intercostale."
       },
       { "text": "Douleurs pelviennes (sacrum, coccyx)." },
-      {
-        "text": "Douleurs articulaires (cheville, genou, hanche, épaule, coude, poignet, main)."
-      },
       { "text": "Suite à un choc émotionnel." },
       { "text": "Stress, nervosité, anxiété, fatigue, baisse d'énergie." },
       { "text": "Troubles du sommeil." },
       { "text": "Barre en bas du dos, lumbago" },
-      { "text": "Douleurs dorsales" },
-      { "text": "Douleurs aux épaules" },
+
       { "text": "Cervicalgie" },
       { "text": "Tendinites" },
       {
@@ -132,9 +123,8 @@
     "title": "L'ostéopathie pour les seniors",
     "list": [
       {
-        "text": "Douleurs vertébrales, cervicales, dorsales, lombaires ou coccygiennes"
+        "text": "Douleurs vertébrales, cervicales, dorsales, lombaires ou coccygiennes, articulaires (genou, hanche, coude, poignet…)"
       },
-      { "text": "Douleurs articulaires (genou, hanche, coude, poignet…)" },
       { "text": "Sciatique, névralgies" },
       { "text": "Maux de tête, certains vertiges" },
       { "text": "Chutes, traumatismes divers" },
