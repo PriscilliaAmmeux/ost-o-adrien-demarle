@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Subtitle from "../subtitle/subtitle";
 import dataFormations from "../../../../api/formations.json";
 
 const specialities = [
@@ -19,30 +18,21 @@ export default function Presentation() {
           style={{ color: "var(--blue-color-light)", fontFamily: "cursive" }}>
           Adrien Demarle
         </h1>
-
         <h2
           className="text-xl md:text-3xl font-bold mb-5"
           style={{ color: "var(--blue-color-light)" }}>
-          Votre ostéopathe sur Comines
+          Ostéopathe sur Comines
         </h2>
-
-        <Subtitle text="Qui suis je ?" />
-
-        <p className="text-lg leading-relaxed mb-5">
-          Diplômé de l’Institut Supérieur d’ostéopathie de Lille. Et spécialisé:
-        </p>
-
-        <ul className="list-disc list-inside mb-5">
-          {specialities.map((speciality) => (
-            <li key={speciality}>{speciality}</li>
-          ))}
-        </ul>
-
-        <Subtitle text="Formations effectuées:" />
-
-        <ul className="list-disc list-inside mb-5">
+        <h3
+          className="font-bold text-black text-lg mb-2"
+          style={{ fontFamily: "cursive" }}>
+          {"Diplômé de l’Institut Supérieur d’ostéopathie de Lille"}
+        </h3>
+        <ul className="mb-5 list-disc ml-10">
           {dataFormations.map((formation) => (
-            <li key={formation.id}>{formation.name}</li>
+            <li className="mb-2" key={formation.id}>
+              {formation.name}
+            </li>
           ))}
         </ul>
       </div>

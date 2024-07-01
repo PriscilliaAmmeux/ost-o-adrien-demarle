@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export default function Header({ className }: HeaderProps) {
   const images = {
-    src: "/cabinet.jpeg",
+    src: "/cabinet.jpg",
     alt: "image du cabinet d'ostéopathie d'Adrien Demarle",
   };
 
@@ -23,20 +23,20 @@ export default function Header({ className }: HeaderProps) {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}>
-      <div className="absolute flex flex-col justify-center w-full h-full pl-10">
-        <h1 className="text-4xl font-bold text-white pb-5">
-          Adrien Demarle - Ostéopathe
-        </h1>
-        <div className="flex gap-10">
-          <Appointment />
-          <Button
-            type={"button"}
-            text={"Contacter"}
-            aria-label={
-              "Cliquez sur ce bouton pour contacter Adrien Demarle, cela vous dirigera vers la page contact"
-            }
-          />
-        </div>
+      <div className="flex justify-between items-center w-full h-full">
+        <section className="flex flex-col justify-center w-1/2 h-full pl-10">
+          <h1 className="text-4xl font-bold text-white pb-5">
+            Adrien Demarle - Ostéopathe
+          </h1>
+          <div className="flex gap-10">
+            <Appointment />
+          </div>
+        </section>
+
+        <section className="flex flex-col justify-center w-1/2 text-xl font-bold text-white pb-5">
+          <p>Adresse: 47 Rue Marceau, 59560 Comines</p>
+          <p>Contact: +336 37 05 96 79 </p>
+        </section>
       </div>
     </header>
   );

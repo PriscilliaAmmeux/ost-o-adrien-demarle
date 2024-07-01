@@ -10,7 +10,7 @@ export default function Page() {
       </div>
       <div className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
         <SectionPrice bgColor="bg-sky-800" title="Tarifs">
-          <ul className="flex justify-center items-center h-full">
+          <ul className="flex justify-center items-center h-full pb-10">
             <li className="text-4xl">60 €</li>
           </ul>
         </SectionPrice>
@@ -29,7 +29,7 @@ export default function Page() {
           </ul>
         </SectionPrice>
         <SectionPrice bgColor="bg-sky-600" title="Moyens de paiement acceptés">
-          <li>chèques, espèces et carte bancaire.</li>
+          <li>Chèques, espèces et carte bancaire.</li>
         </SectionPrice>
       </div>
     </Layout>
