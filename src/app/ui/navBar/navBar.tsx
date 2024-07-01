@@ -27,7 +27,6 @@ export default function navBar() {
           isActive={true}
         />
         <NavLink href="/price" title="Tarifs" isActive={true} />
-        <NavLink href="/contact" title="Contact" isActive={true} />
         <Appointment />
       </nav>
     </section>

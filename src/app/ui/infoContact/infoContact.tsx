@@ -4,8 +4,12 @@ import { IoIosInformationCircleOutline } from "react-icons/io";
 
 const infoPractice = [
   {
+    title: "Adresse",
+    text: "47 Rue Marceau, 59560 Comines",
+  },
+  {
     title: "Horaires d'ouvertures du cabinet",
-    text: "du lundi au samedi de 8h à 21h.",
+    text: "du lundi au samedi",
   },
   {
     title: "Proximités villes",
@@ -25,7 +29,7 @@ const infoPractice = [
 const infoDetails = [
   {
     title: "Contact",
-    text: "06 37 05 96 79 (mon numéro direct)",
+    text: "+ 336 37 05 96 79",
   },
   {
     title: "Adeli",

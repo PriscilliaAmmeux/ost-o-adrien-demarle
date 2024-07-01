@@ -13,7 +13,7 @@ export default function Card({ id, title, list }: CardProps) {
       className="relative bg-sky-800 rounded-lg overflow-hidden shadow-lg flex flex-col h-full">
       <div className="px-6 py-4 mb-20">
         <h1
-          className="font-bold text-white text-lg underline mb-2"
+          className="font-bold text-white text-lg mb-2"
           style={{ fontFamily: "cursive" }}>
           {title}
         </h1>
