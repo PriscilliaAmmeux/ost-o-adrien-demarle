@@ -1,4 +1,5 @@
-.buttonBase {
+/* Shared button styles */
+.button {
   padding: 0.5rem 1rem;
   width: auto;
   border-radius: 1rem;
@@ -6,6 +7,10 @@
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
   cursor: pointer;
+}
+
+/* Base button style */
+.buttonBase {
   background-color: var(--blue-color-light);
   color: var(--white-color);
 }
@@ -14,4 +19,16 @@
   background-color: var(--white-color);
   color: var(--black-color);
   border-color: var(--blue-color-light);
+}
+
+/* Close button style */
+.buttonClose {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.buttonClose:hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border-color: var(--black-color);
 }
