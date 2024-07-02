@@ -12,11 +12,9 @@
       {
         "text": "Reflux gastro-oesophagien (RGO), régurgitations, vomissements, troubles de la succion."
       },
-      { "text": "Accouchement difficile, sous péridurale, césarienne" },
+      { "text": "Accouchement difficile: sous péridurale, césarienne, utilisation de spatules, forceps, ventouse, appui sur le ventre de la mère" },
       { "text": "Présentation par le siège, le front ou la face" },
-      {
-        "text": "Utilisation de spatules, forceps, ventouse, appui sur le ventre de la mère"
-      },
+    
       { "text": "Cordon enroulé autour du cou" },
       {
         "text": "Manque d’oxygène à la naissance, souffrance fœtale, réanimation…"
@@ -30,9 +28,8 @@
       { "text": "Suites d’opérations..." },
       { "text": "Maux de tête,..." },
       { "text": "Otites ou rhinites à répétition." },
-      { "text": "Scoliose, attitude scoliotique, cyphose ou hyperlordose  " },
-      { "text": "Troubles du sommeil" },
-      {
+      { "text": "Scoliose, attitude scoliotique, cyphose ou hyperlordose" },
+         {
         "text": "Après tout traumatisme (chute, entorse, déchirure ligamentaire, …)"
       },
       { "text": "Après une intervention chirurgicale" },
