@@ -1,14 +1,6 @@
 import Image from "next/image";
 import dataFormations from "../../../../api/formations.json";
 
-const specialities = [
-  "Ostéopathie pour bébés",
-  "Troubles musculo-squelettiques (TMS) dans le milieu de l'entreprise",
-  "Ostéopathie du sport",
-  "Ostéopathie pour femmes enceintes",
-  "Ostéopathie pour adulte et seniors",
-];
-
 export default function Presentation() {
   return (
     <section className="max-w-7xl mx-auto p-5 flex flex-col md:flex-row items-center font-sans text-gray-800 mt-10 mb-10">
