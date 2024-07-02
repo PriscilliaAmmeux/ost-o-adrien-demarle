@@ -30,7 +30,7 @@ export default function Presentation() {
       </div>
       <div className="md:w-1/2 flex justify-center md:justify-end">
         <Image
-          src={"/portrait.png"}
+          src={"/portrait.webp"}
           alt="photo profil"
           className="rounded-xl flex-shrink-0 shadow-lg"
           security="restricted"
