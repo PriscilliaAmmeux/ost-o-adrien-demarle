@@ -16,7 +16,11 @@ export default function ItemsContact({
 }: ItemsContactProps) {
   return (
     <section className="flex-1 p-4 md:p-8 mr-4">
-      <Title title={title} Icon={Icon} />
+      <Title
+        title={title}
+        Icon={Icon}
+        style={{ color: "var(--white-color)" }}
+      />
       {children}
       <ul>
         {info.map((item) => (

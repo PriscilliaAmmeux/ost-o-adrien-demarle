@@ -9,7 +9,10 @@ export default function RgpdModal({ onClose }: FooterProps) {
   return (
     <section className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-80 text-center">
-        <Title title="Politique de Confidentialité" />
+        <Title
+          title="Politique de Confidentialité"
+          style={{ color: "var(--white-color)" }}
+        />
         <p className="mb-4">
           Les données conservées le sont à des fins professionnelles dans le
           cadre de mon activité seulement.

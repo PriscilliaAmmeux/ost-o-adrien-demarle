@@ -13,7 +13,7 @@ export default function navBar() {
         />{" "}
         <div
           className="flex font-bold flex-col justify-center "
-          style={{ color: "var(--blue-color-light)" }}>
+          style={{ color: "var(--blue-color)" }}>
           <p>Ostéopathe</p>
           <p>Adrien Demarle</p>
         </div>
