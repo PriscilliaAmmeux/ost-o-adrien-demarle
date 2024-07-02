@@ -5,8 +5,8 @@
 :root {
   /*graphics charters*/
   --white-color: rgb(248, 248, 242);
-  --black-color: rgba(83, 82, 81);
-  --blue-color-light: rgba(116, 172, 197);
+  --black-color: rgb(14, 14, 14);
+  --blue-color-light: rgba(116, 171, 197, 0.553);
   --blue-color: rgb(7 89 133);
 }
 

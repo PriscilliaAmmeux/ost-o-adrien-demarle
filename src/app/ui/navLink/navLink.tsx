@@ -23,7 +23,7 @@ export default function NavLink({ href, title }: NavLinkProps) {
       <h1
         className="hover:cursor-pointer hover:font-bold hover:text-blue-900"
         style={{
-          color: isActive ? "var(--blue-color-light)" : "var(--black-color)",
+          color: isActive ? "var(--blue-color)" : "var(--black-color)",
         }}>
         {title}
       </h1>

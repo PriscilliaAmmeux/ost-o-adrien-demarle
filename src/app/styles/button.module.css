@@ -11,14 +11,14 @@
 
 /* Base button style */
 .buttonBase {
-  background-color: var(--blue-color-light);
+  background-color: var(--blue-color);
   color: var(--white-color);
 }
 
 .buttonBase:hover {
   background-color: var(--white-color);
   color: var(--black-color);
-  border-color: var(--blue-color-light);
+  border-color: var(--blue-color);
 }
 
 /* Close button style */

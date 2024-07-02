@@ -15,17 +15,18 @@ export default function Card({ id, title, list }: CardProps) {
   return (
     <section
       id={`prestation-${id}`}
-      className="relative bg-sky-800 rounded-lg overflow-hidden shadow-lg flex flex-col h-full">
+      className="relative rounded-lg overflow-hidden shadow-lg flex flex-col h-full"
+      style={{ backgroundColor: "var(--blue-color-light)" }}>
       <div className="p-4">
         <h1
-          className="font-bold text-white text-lg mb-2"
+          className="font-bold text-lg mb-2"
           style={{ fontFamily: "cursive" }}>
           {title}
         </h1>
         <span className="flex justify-center mb-4 mt-2">
           <Button
             type="button"
-            text="Cliquez pour lire en entier"
+            text="En savoir plus"
             onClick={() => {
               setIsModalOpen(true);
             }}
@@ -37,7 +38,7 @@ export default function Card({ id, title, list }: CardProps) {
           <div className="flex flex-col gap-4">
             <ul className="list-disc pl-5">
               {list.map((item, index) => (
-                <li className="text-white text-base mt-2" key={index}>
+                <li className="text-base mt-2" key={index}>
                   {item.text}
                 </li>
               ))}

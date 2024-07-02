@@ -6,7 +6,7 @@ import SocialNetwork from "../socialNetwork/socialNetwork";
 export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
   return (
     <footer
-      style={{ background: "var(--blue-color-light)" }}
+      style={{ background: "var(--blue-color)" }}
       className="w-full text-white flex flex-col p-6 md:p-10  md:text-left text-sm space-y-6">
       <InfoContact />
 
@@ -14,7 +14,7 @@ export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
 
       <section className="flex flex-row justify-between">
         <p
-          className="font-bold hover:underline hover:text-blue-900"
+          className="font-bold hover:underline"
           onClick={onRgpdClick}
           style={{ cursor: "pointer" }}>
           Politiques de confidentialité
@@ -24,7 +24,7 @@ export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
         <SocialNetwork />
       </section>
 
-      <section className="flex justify-center items-center flex-col">
+      <section className="flex justify-center items-center flex-col text-xs">
         <p>~</p>
         <PubMe />
       </section>

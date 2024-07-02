@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <Layout>
       <div className="flex justify-center items-center my-10">
-        <Title title="Tarifs" />
+        <Title title="Tarifs" style={{ color: "var(--blue-color)" }} />
       </div>
       <div className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
         <SectionPrice bgColor="bg-sky-800" title="Tarifs">
