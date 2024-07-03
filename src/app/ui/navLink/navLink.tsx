@@ -9,7 +9,7 @@ interface NavLinkProps {
   title: string;
   isActive: boolean;
   className?: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export default function NavLink({

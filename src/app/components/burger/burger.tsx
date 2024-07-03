@@ -5,7 +5,6 @@ import styles from "../../styles/burger.module.css";
 import { useState } from "react";
 import NavLink from "@/app/ui/navLink/navLink";
 import Logo from "@/app/ui/logo/logo";
-import Appointment from "@/app/ui/appointment/appointment";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
