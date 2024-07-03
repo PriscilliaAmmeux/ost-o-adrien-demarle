@@ -3,7 +3,7 @@ import Appointment from "../appointment/appointment";
 
 export default function Header() {
   const images = {
-    src: "/cabinet.jpg",
+    src: "/cabinet.webp",
     alt: "image du cabinet d'ostéopathie d'Adrien Demarle",
   };
 
