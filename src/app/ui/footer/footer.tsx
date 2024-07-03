@@ -12,22 +12,18 @@ export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
 
       <FrameMaps />
 
-      <section className="flex flex-row justify-between">
-        <p
+      <section className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+        <button
           className="font-bold hover:underline"
           onClick={onRgpdClick}
           style={{ cursor: "pointer" }}>
           Politiques de confidentialité
-        </p>
-
+        </button>
         <p>© 2024 Adrien Demarle. Tous droits réservés.</p>
         <SocialNetwork />
       </section>
 
-      <section className="flex justify-center items-center flex-col text-xs">
-        <p>~</p>
-        <PubMe />
-      </section>
+      <PubMe />
     </footer>
   );
 }
