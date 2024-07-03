@@ -1,11 +1,10 @@
 export default function PubMe() {
   return (
-    <section className="flex flex-row gap-2 items-center">
+    <section className="flex flex-col md:flex-row gap-2 items-center justify-center">
       <p className="italic">
         Créé par <span className="font-bold">Priscillia Ammeux</span>
       </p>
-      <div>~</div>
-      <p>
+      <p className="flex flex-col md:flex-row items-center justify-center">
         Conceptrice et Développeuse d&apos;Applications:
         <a
           href="http://www.priscillia-ammeux-portfolio.fr"
