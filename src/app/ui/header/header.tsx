@@ -18,19 +18,19 @@ export default function Header() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}>
-      <div className="flex flex-col justify-between items-center w-full h-full">
-        <section className="flex flex-col justify-center w-full h-full md:pl-10 text-center md:text-left md:w-1/2">
+      <div className="flex md:flex-row flex-col justify-between items-center w-full h-full">
+        <section className="flex flex-col justify-center items-center w-full h-full md:pl-10 text-center md:text-left md:w-1/2">
           <h1 className="text-4xl font-bold text-white pb-5">
             Adrien Demarle Ostéopathe
           </h1>
-          <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
+          <div className="gap-10 justify-center items-center">
             <Appointment />
           </div>
         </section>
 
         <section className="flex flex-col justify-center w-full text-xl font-bold text-white pb-5 text-center md:text-left md:w-1/2">
           <p>Adresse: 47 Rue Marceau, 59560 Comines</p>
-          <p>Contact: +336 37 05 96 79 </p>
+          <p>Contact: 06 37 05 96 79 </p>
         </section>
       </div>
     </header>
