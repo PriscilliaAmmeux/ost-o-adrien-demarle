@@ -5,6 +5,8 @@ import styles from "../../styles/burger.module.css";
 import { useState, useEffect } from "react";
 import NavLink from "@/app/ui/navLink/navLink";
 import Logo from "@/app/ui/logo/logo";
+import Appointment from "@/app/ui/appointment/appointment";
+import SocialNetwork from "@/app/ui/socialNetwork/socialNetwork";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,13 +88,9 @@ export default function Burger() {
             isActive={true}
             className="text-lg"
           />
-          <NavLink
-            href="https://www.doctolib.fr/osteopathe/comines/adrien-demarle"
-            title="Prendre rendez-vous par Doctolib"
-            onClick={handleCloseMenu}
-            isActive={true}
-            className="text-lg"
-          />
+          <span className="mt-10">
+            <Appointment />
+          </span>
         </div>
       )}
     </section>

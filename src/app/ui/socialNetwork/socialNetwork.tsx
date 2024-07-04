@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function SocialNetwork() {
   return (
