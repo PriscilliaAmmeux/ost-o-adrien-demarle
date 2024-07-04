@@ -11,7 +11,7 @@ export default function RgpdModal({ onClose }: FooterProps) {
       <div className="bg-white p-6 rounded-lg shadow-lg w-80 text-center">
         <Title
           title="Politique de Confidentialité"
-          style={{ color: "var(--white-color)" }}
+          style={{ color: "var(--blue-color)" }}
         />
         <p className="mb-4">
           Les données conservées le sont à des fins professionnelles dans le
