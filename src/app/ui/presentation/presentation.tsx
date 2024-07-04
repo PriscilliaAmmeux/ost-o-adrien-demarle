@@ -7,7 +7,7 @@ export default function Presentation() {
       <div className="md:w-1/2">
         <h1
           className="text-2xl md:text-4xl font-bold mb-5"
-          style={{ color: "var(--blue-color)", fontFamily: "cursive" }}>
+          style={{ color: "var(--blue-color)" }}>
           Adrien Demarle
         </h1>
         <h2
