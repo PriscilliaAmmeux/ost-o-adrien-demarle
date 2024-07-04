@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import NavLink from "@/app/ui/navLink/navLink";
 import Logo from "@/app/ui/logo/logo";
 import Appointment from "@/app/ui/appointment/appointment";
-import SocialNetwork from "@/app/ui/socialNetwork/socialNetwork";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +55,7 @@ export default function Burger() {
       </div>
 
       {isOpen && (
-        <div
+        <nav
           className={`${styles.burgerMenu} ${
             isOpen ? styles.open : ""
           } flex flex-col items-center`}
@@ -67,6 +66,7 @@ export default function Burger() {
             onClick={handleCloseMenu}>
             <FaTimes className="cursor-pointer" />
           </button>
+          
           <NavLink
             href="/"
             title="Accueil"
@@ -91,7 +91,7 @@ export default function Burger() {
           <span className="mt-10">
             <Appointment />
           </span>
-        </div>
+        </nav>
       )}
     </section>
   );
