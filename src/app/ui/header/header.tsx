@@ -1,11 +1,19 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import styles from "../../styles/header.module.css";
 import Appointment from "../appointment/appointment";
 
 export default function Header() {
-  const images = {
-    src: "/cabinet.webp",
-    alt: "image du cabinet d'ostéopathie d'Adrien Demarle",
-  };
+  const [backgroundImage, setBackgroundImage] = useState(
+    "/placeholder-image.webp"
+  );
+
+  useEffect(() => {
+    const imageToLoad = new Image();
+    imageToLoad.src = "/cabinet.webp";
+    imageToLoad.onload = () => setBackgroundImage(imageToLoad.src); // Change to the high-quality image once loaded
+  }, []);
 
   return (
     <header
@@ -13,7 +21,7 @@ export default function Header() {
       style={{
         width: "100vw",
         height: "auto",
-        backgroundImage: `url(${images.src})`,
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
