@@ -15,9 +15,7 @@ export default function Presentation() {
           style={{ color: "var(--blue-color)" }}>
           Ostéopathe sur Comines
         </h2>
-        <h3
-          className="font-bold text-black text-lg mb-2"
-          style={{ fontFamily: "cursive" }}>
+        <h3 className="font-bold text-black text-lg mb-2">
           {"Diplômé de l’Institut Supérieur d’ostéopathie de Lille"}
         </h3>
         <ul className="mb-5 list-disc ml-10">

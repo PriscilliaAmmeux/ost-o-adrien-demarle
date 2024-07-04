@@ -18,21 +18,17 @@ export default function Card({ id, title, list }: CardProps) {
       className="relative rounded-lg overflow-hidden shadow-lg flex flex-col h-full"
       style={{ backgroundColor: "var(--blue-color-light)" }}>
       <div className="p-4">
-        <h1
-          className="font-bold text-lg mb-2"
-          style={{ fontFamily: "cursive" }}>
-          {title}
-        </h1>
-        <span className="flex justify-center mb-4 mt-2">
-          <Button
-            type="button"
-            text="En savoir plus"
-            onClick={() => {
-              setIsModalOpen(true);
-            }}
-            ariaLabel="Cliquez sur le bouton pour lire en entier l'article"
-            buttonStyle="base"
-          />
+        <h1 className="font-bold text-lg mb-2 ">{title}</h1>
+        <span className="flex justify-end mb-4 mt-2">
+          {!isModalOpen ? (
+            <Button
+              type="button"
+              text="En savoir plus"
+              onClick={() => setIsModalOpen(true)}
+              ariaLabel="Cliquez sur le bouton pour lire en entier l'article"
+              buttonStyle="base"
+            />
+          ) : null}
         </span>
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
           <div className="flex flex-col gap-4">
