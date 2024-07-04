@@ -12,12 +12,7 @@ interface NavLinkProps {
   onClick?: () => void;
 }
 
-export default function NavLink({
-  href,
-  title,
-  className,
-  onClick,
-}: NavLinkProps) {
+export default function NavLink({ href, title, onClick }: NavLinkProps) {
   const pathname = usePathname();
   const [isActive, setIsActive] = useState(false);
 
@@ -32,6 +27,7 @@ export default function NavLink({
         onClick={onClick}
         style={{
           color: isActive ? "var(--blue-color)" : "var(--black-color)",
+          fontWeight: isActive ? "bold" : "normal",
         }}>
         {title}
       </h1>
