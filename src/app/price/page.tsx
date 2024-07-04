@@ -9,12 +9,12 @@ export default function Page() {
         <Title title="Tarifs" style={{ color: "var(--blue-color)" }} />
       </div>
       <div className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
-        <SectionPrice bgColor="bg-sky-800" title="Tarifs">
+        <SectionPrice title="Tarifs">
           <ul className="flex justify-center items-center h-full pb-10">
             <li className="text-4xl">60 €</li>
           </ul>
         </SectionPrice>
-        <SectionPrice bgColor="bg-sky-700" title="Remboursements">
+        <SectionPrice title="Remboursements">
           <ul className="list-disc list-inside">
             <li>
               Savez-vous que plus de 85% des mutuelles prennent en charge les
@@ -28,7 +28,7 @@ export default function Page() {
             </li>
           </ul>
         </SectionPrice>
-        <SectionPrice bgColor="bg-sky-600" title="Moyens de paiement acceptés">
+        <SectionPrice title="Moyens de paiement acceptés">
           <li>Chèques, espèces et carte bancaire.</li>
         </SectionPrice>
       </div>
