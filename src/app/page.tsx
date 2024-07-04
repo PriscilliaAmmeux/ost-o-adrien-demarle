@@ -16,7 +16,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Adrien Demarle - Ostéopathe D.O. à Comines</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-between">
         <Header />
