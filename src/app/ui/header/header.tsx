@@ -1,32 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import styles from "../../styles/header.module.css";
+import Image from "next/image";
 import Appointment from "../appointment/appointment";
 
 export default function Header() {
-  const [backgroundImage, setBackgroundImage] = useState(
-    "/placeholder-image.webp"
-  );
-
-  useEffect(() => {
-    const imageToLoad = new Image();
-    imageToLoad.src = "/cabinet.webp";
-    imageToLoad.onload = () => setBackgroundImage(imageToLoad.src); // Change to the high-quality image once loaded
-  }, []);
-
   return (
     <header
-      className={`${styles.customHeader} w-full flex flex-col justify-around items-center p-4 relative `}
+      className="w-full flex flex-col justify-around items-center p-4 relative"
       style={{
-        width: "100vw",
-        height: "auto",
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
+        width: "100%",
+        height: "400px",
       }}>
-      <div className="flex md:flex-row flex-col justify-between items-center w-full h-full">
+      <Image
+        src={"/cabinet.webp"}
+        alt="photo cabinet"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        priority
+      />
+      <div className="absolute flex md:flex-row flex-col justify-between items-center w-full h-full">
         <section className="flex flex-col justify-center items-center w-full h-full md:pl-10 text-center md:text-left md:w-1/2">
           <h1 className="text-4xl font-bold text-white pb-5">
             Adrien Demarle Ostéopathe
