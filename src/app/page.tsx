@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines",
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Layout>
+      <Head>
+        <title>Adrien Demarle - Ostéopathe D.O. à Comines</title>
+        <link rel="icon" type="image/webp" href="/logo.webp" />
+      </Head>
       <main className="flex flex-col items-center justify-between">
         <Header />
         <section className="w-full flex flex-col items-center justify-center">
