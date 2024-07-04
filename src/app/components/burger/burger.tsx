@@ -2,14 +2,15 @@
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "../../styles/burger.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NavLink from "@/app/ui/navLink/navLink";
 import Logo from "@/app/ui/logo/logo";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const toggleMenu = (event: React.MouseEvent) => {
+    event.stopPropagation();
     setIsOpen(!isOpen);
   };
 
@@ -17,8 +18,25 @@ export default function Burger() {
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener("click", handleCloseMenu);
+    } else {
+      document.removeEventListener("click", handleCloseMenu);
+    }
+
+    return () => {
+      document.removeEventListener("click", handleCloseMenu);
+    };
+  }, [isOpen]);
+
   return (
-    <section style={{ backgroundColor: "var(--blue-color-light)" }}>
+    <section
+      style={{
+        height: isOpen ? "100vh" : "auto",
+      }}
+      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the menu
+    >
       <div className="flex justify-between items-center p-4">
         <Logo width={50} />
 
@@ -30,41 +48,53 @@ export default function Burger() {
         <button
           className="lg:hidden"
           onClick={toggleMenu}
-          aria-label={isOpen ? "Fermé le menu" : "Ouvrir le menu"}>
+          aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}>
           {isOpen ? <FaTimes className="mr-6" /> : <FaBars className="mr-6" />}
         </button>
       </div>
 
-      <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ""}`}>
-        <NavLink
-          href="/"
-          title="Accueil"
-          onClick={handleCloseMenu}
-          isActive={true}
-          className="text-lg ml-10"
-        />
-        <NavLink
-          href="/consultation"
-          title="Motifs de consultations"
-          onClick={handleCloseMenu}
-          isActive={true}
-          className="text-lg ml-10"
-        />
-        <NavLink
-          href="/price"
-          title="Tarifs"
-          onClick={handleCloseMenu}
-          isActive={true}
-          className="text-lg ml-10"
-        />
-        <NavLink
-          href="https://www.doctolib.fr/osteopathe/comines/adrien-demarle"
-          title="Prendre rendez-vous par Doctolib"
-          onClick={handleCloseMenu}
-          isActive={true}
-          className="text-lg ml-10"
-        />
-      </div>
+      {isOpen && (
+        <div
+          className={`${styles.burgerMenu} ${
+            isOpen ? styles.open : ""
+          } flex flex-col items-center`}
+          onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the menu
+        >
+          <button
+            className="w-full flex justify-between items-center p-4"
+            onClick={handleCloseMenu}>
+            <FaTimes className="cursor-pointer" />
+          </button>
+          <NavLink
+            href="/"
+            title="Accueil"
+            onClick={handleCloseMenu}
+            isActive={true}
+            className="text-lg"
+          />
+          <NavLink
+            href="/consultation"
+            title="Motifs de consultations"
+            onClick={handleCloseMenu}
+            isActive={true}
+            className="text-lg"
+          />
+          <NavLink
+            href="/price"
+            title="Tarifs"
+            onClick={handleCloseMenu}
+            isActive={true}
+            className="text-lg"
+          />
+          <NavLink
+            href="https://www.doctolib.fr/osteopathe/comines/adrien-demarle"
+            title="Prendre rendez-vous par Doctolib"
+            onClick={handleCloseMenu}
+            isActive={true}
+            className="text-lg"
+          />
+        </div>
+      )}
     </section>
   );
 }
