@@ -19,7 +19,7 @@ export default function Card({ id, title, list }: CardProps) {
       style={{ backgroundColor: "var(--blue-color-light)" }}>
       <div className="p-4">
         <h1 className="font-bold text-lg mb-2 ">{title}</h1>
-        <span className="flex justify-end mb-4 mt-2">
+        <span className="flex justify-center mb-2 mt-2">
           {!isModalOpen ? (
             <Button
               type="button"
