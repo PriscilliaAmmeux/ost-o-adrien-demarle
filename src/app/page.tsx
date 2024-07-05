@@ -14,10 +14,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <title>Adrien Demarle - Ostéopathe D.O. à Comines</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-      </Head>
       <main className="flex flex-col items-center justify-between">
         <Header />
         <section className="w-full flex flex-col items-center justify-center">
