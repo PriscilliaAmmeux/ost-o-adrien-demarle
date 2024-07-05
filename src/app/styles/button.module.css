@@ -1,9 +1,10 @@
 /* Shared button styles */
 .button {
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.25rem;
   width: auto;
-  border-radius: 1rem;
-  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 2px solid var(--blue-color);
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
   cursor: pointer;
@@ -11,24 +12,25 @@
 
 /* Base button style */
 .buttonBase {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+}
+
+.buttonBase:hover {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
 
-.buttonBase:hover {
-  background-color: var(--white-color);
-  color: var(--black-color);
-  border-color: var(--blue-color);
-}
-
 /* Close button style */
 .buttonClose {
-  background-color: var(--black-color);
-  color: var(--white-color);
+  color: var(--blue-color);
 }
 
 .buttonClose:hover {
   background-color: var(--white-color);
-  color: var(--black-color);
-  border-color: var(--black-color);
+  color: var(--blue-color);
+}
+
+.buttonLarge {
+  width: 100%;
 }
