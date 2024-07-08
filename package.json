@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:jest": "jest",
+    "test:playwright": "npx playwright test"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -20,14 +23,27 @@
     "sharp": "^0.33.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@playwright/test": "^1.45.1",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "babel-jest": "^29.7.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "playwright": "^1.45.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5"
+    "ts-jest": "^29.2.0",
+    "typescript": "^5.5.3"
   }
 }
