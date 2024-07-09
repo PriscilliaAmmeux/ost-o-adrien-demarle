@@ -29,7 +29,7 @@ const infoPractice = [
 const infoDetails = [
   {
     title: "Contact",
-    text: "+ 336 37 05 96 79",
+    text: "06 37 05 96 79",
   },
   {
     title: "Adeli",
