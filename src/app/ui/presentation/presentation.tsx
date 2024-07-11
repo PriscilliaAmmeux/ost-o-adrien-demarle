@@ -18,6 +18,7 @@ export default function Presentation() {
         <h3 className="font-bold text-black text-lg mb-2">
           {"Diplômé de l’Institut Supérieur d’ostéopathie de Lille"}
         </h3>
+        <p className="mb-2">J'ai également effectué plusieurs formations: </p>
         <ul className="mb-5 list-disc ml-10">
           {dataFormations.map((formation) => (
             <li className="mb-2" key={formation.id}>
