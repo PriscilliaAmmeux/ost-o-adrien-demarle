@@ -12,9 +12,9 @@ const Title: React.FC<TitleProps> = ({ title, Icon, style }) => (
     {Icon && (
       <Icon className=" text-xl mr-2" style={{ color: "var(--white-color)" }} />
     )}
-    <h1 className="text-xl font-bold uppercase " style={style}>
+    <h2 className="text-xl font-bold uppercase " style={style}>
       {title}
-    </h1>
+    </h2>
   </div>
 );
 

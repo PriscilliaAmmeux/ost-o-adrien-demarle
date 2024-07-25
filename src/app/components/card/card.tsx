@@ -18,7 +18,7 @@ export default function Card({ id, title, list }: CardProps) {
       className="relative rounded-lg overflow-hidden shadow-lg flex flex-col h-full"
       style={{ backgroundColor: "var(--blue-color-light)" }}>
       <div className="p-4">
-        <h1 className="font-bold text-lg mb-2 ">{title}</h1>
+        <h2 className="font-bold text-lg mb-2 ">{title}</h2>
         <span className="flex justify-center mb-2 mt-2">
           {!isModalOpen ? (
             <Button
