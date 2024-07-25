@@ -22,7 +22,7 @@ export default function NavLink({ href, title, onClick }: NavLinkProps) {
 
   return (
     <Link href={href} target="_self" rel="noopener noreferrer">
-      <h1
+      <h2
         className="hover:cursor-pointer hover:font-bold hover:text-blue-900 px-2 py-1"
         onClick={onClick}
         style={{
@@ -30,7 +30,7 @@ export default function NavLink({ href, title, onClick }: NavLinkProps) {
           fontWeight: isActive ? "bold" : "normal",
         }}>
         {title}
-      </h1>
+      </h2>
     </Link>
   );
 }

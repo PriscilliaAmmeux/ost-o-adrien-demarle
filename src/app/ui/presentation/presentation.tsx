@@ -5,16 +5,16 @@ export default function Presentation() {
   return (
     <section className="max-w-7xl mx-auto p-5 flex flex-col md:flex-row items-center font-sans text-gray-800 mt-10 mb-10">
       <div className="md:w-1/2">
-        <h1
+        <h2
           className="text-2xl md:text-4xl font-bold mb-5"
           style={{ color: "var(--blue-color)" }}>
           Adrien Demarle
-        </h1>
-        <h2
+        </h2>
+        <h3
           className="text-xl md:text-3xl font-bold mb-5"
           style={{ color: "var(--blue-color)" }}>
           Ostéopathe sur Comines
-        </h2>
+        </h3>
         <h3 className="font-bold text-black text-lg mb-2">
           {"Diplômé de l’Institut Supérieur d’ostéopathie de Lille"}
         </h3>

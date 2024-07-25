@@ -42,8 +42,8 @@ export default function Burger() {
         <Logo width={50} />
 
         <div className="flex flex-col items-center">
-          <h1 className="text-2xl font-bold pl-2">Adrien Demarle</h1>
-          <h2 className="text-xl">Ostéophate DO</h2>
+          <h2 className="text-2xl font-bold pl-2">Adrien Demarle</h2>
+          <h3 className="text-xl">Ostéophate DO</h3>
         </div>
 
         <button
