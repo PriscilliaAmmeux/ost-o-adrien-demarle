@@ -14,6 +14,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Layout>
+      <Head>
+        <link
+          rel="canonical"
+          href="https://www.adrien-demarle-osteopathe.fr/"
+        />
+      </Head>
       <main className="flex flex-col items-center justify-between">
         <Header />
         <section className="w-full flex flex-col items-center justify-center">
