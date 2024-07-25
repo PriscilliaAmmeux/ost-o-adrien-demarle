@@ -21,9 +21,9 @@ export default function Header() {
       />
       <div className="absolute flex md:flex-row flex-col justify-between items-center w-full h-full">
         <section className="flex flex-col justify-center items-center w-full h-full md:pl-10 text-center md:text-left md:w-1/2">
-          <h1 className="text-4xl font-bold text-white pb-5">
+          <h2 className="text-4xl font-bold text-white pb-5">
             Adrien Demarle Ostéopathe
-          </h1>
+          </h2>
           <div className="gap-10 justify-center items-center">
             <Appointment />
           </div>
