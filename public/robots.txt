@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.adrien-demarle-osteopathe.fr/sitemap.xml
