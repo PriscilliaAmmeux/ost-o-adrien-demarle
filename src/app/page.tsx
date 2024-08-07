@@ -8,7 +8,7 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines",
   description:
-    "ADRIEN DEMARLE ostéopathe DO à Comines diplômé de l’Institut Supérieur d’ostéopathie de Lille pour bébés enfants adultes séniors sportifs à Comines et environs",
+    "ADRIEN DEMARLE ostéopathe DO à Comines diplômé de l’Institut Supérieur d’ostéopathie de Lille pour tous : bébés, enfants, adultes, séniors et sportifs",
 };
 
 export default function Home() {
