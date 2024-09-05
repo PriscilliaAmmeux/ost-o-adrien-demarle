@@ -1,6 +1,11 @@
+import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import SectionPrice from "../ui/sectionPrice/sectionPrice";
 import Title from "../ui/title/title";
+
+export const metadata: Metadata = {
+  title: "Adrien Demarle - Tarifs - Ostéopathe D.O - Comines et alentours",
+};
 
 export default function Page() {
   return (

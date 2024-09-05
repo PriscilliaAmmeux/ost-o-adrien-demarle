@@ -3,7 +3,8 @@ import InfoContact from "../infoContact/infoContact";
 import PubMe from "../pubMe/pubMe";
 import SocialNetwork from "../socialNetwork/socialNetwork";
 
-export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
+export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer
       style={{ background: "var(--blue-color)" }}
@@ -13,13 +14,10 @@ export default function Footer({ onRgpdClick }: { onRgpdClick: () => void }) {
       <FrameMaps />
 
       <section className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-        <button
-          className="font-bold hover:underline"
-          onClick={onRgpdClick}
-          style={{ cursor: "pointer" }}>
-          Politiques de confidentialité
-        </button>
-        <p>© 2024 Adrien Demarle. Tous droits réservés.</p>
+        <a href="/legalNotices" className=" hover:font-bold cursor-pointer">
+          Mentions légales
+        </a>
+        <p>© {currentYear} Adrien Demarle. Tous droits réservés.</p>
         <SocialNetwork />
       </section>
 
