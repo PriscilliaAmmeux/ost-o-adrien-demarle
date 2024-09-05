@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
 import Head from "next/head";
+import Cookies from "./components/cookies/cookies";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines",
@@ -26,6 +27,7 @@ export default function Home() {
           <Presentation />
         </section>
         <Analytics />
+        <Cookies />
       </main>
     </Layout>
   );

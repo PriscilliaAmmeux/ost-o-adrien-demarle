@@ -1,6 +1,12 @@
+import { Metadata } from "next";
 import Prestations from "../components/prestations/prestations";
 import Layout from "../ui/layout/layout";
 import Title from "../ui/title/title";
+
+export const metadata: Metadata = {
+  title:
+    "Adrien Demarle - Motifs de consultations - Ostéopathe D.O - Comines et alentours",
+};
 
 export default function Page() {
   return (
