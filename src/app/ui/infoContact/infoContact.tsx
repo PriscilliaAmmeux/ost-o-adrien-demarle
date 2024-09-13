@@ -13,7 +13,7 @@ const infoPractice = [
   },
   {
     title: "Proximités villes",
-    text: "Deûlémont, Wervicq Sud, Wervicq, Quesnoy-sur-Deule, Warneton, Bousbecque, Linselles, Frelinghien, Comines, Armentières, Verlinghem",
+    text: "Deûlémont, Wervicq Sud, Wervicq, Quesnoy-sur-Deule, Warneton, Bousbecque, Linselles, Frelinghien, Comines France, Armentières, Verlinghem",
   },
 
   {
