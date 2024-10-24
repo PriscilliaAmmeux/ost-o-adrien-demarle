@@ -3,6 +3,7 @@ import Layout from "../ui/layout/layout";
 import SectionPrice from "../ui/sectionPrice/sectionPrice";
 import Title from "../ui/title/title";
 import GoogleTagManager from "../components/googleTagManager/googleTagManager";
+import GoogleTagManagerNoScript from "../components/googleTagManagerNoScript/googleTagManagerNoScript";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Tarifs - Ostéopathe D.O - Comines et alentours",
@@ -15,7 +16,8 @@ export default function Page() {
         <GoogleTagManager />
         <Title title="Tarifs" style={{ color: "var(--blue-color)" }} />
       </head>
-      <div className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
+      <body className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
+        <GoogleTagManagerNoScript />
         <SectionPrice title="Tarifs">
           <ul className="flex justify-center items-center h-full pb-10">
             <li className="text-4xl">60 €</li>
@@ -38,7 +40,7 @@ export default function Page() {
         <SectionPrice title="Moyens de paiement acceptés">
           <li>Chèques, espèces et carte bancaire.</li>
         </SectionPrice>
-      </div>
+      </body>
     </Layout>
   );
 }
