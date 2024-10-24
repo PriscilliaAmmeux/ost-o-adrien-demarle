@@ -6,6 +6,7 @@ import Header from "./ui/header/header";
 import Head from "next/head";
 import Cookies from "./components/cookies/cookies";
 import GoogleTagManager from "./components/googleTagManager/googleTagManager";
+import GoogleTagManagerNoScript from './components/googleTagManagerNoScript/googleTagManagerNoScript';
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines",
@@ -23,14 +24,15 @@ export default function Home() {
         />
         <GoogleTagManager />
       </Head>
-      <main className="flex flex-col items-center justify-between">
+      <body className="flex flex-col items-center justify-between">
+        <GoogleTagManagerNoScript />
         <Header />
         <section className="w-full flex flex-col items-center justify-center">
           <Presentation />
         </section>
         <Analytics />
         <Cookies />
-      </main>
+      </body>
     </Layout>
   );
 }
