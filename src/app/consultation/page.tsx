@@ -20,10 +20,10 @@ export default function Page() {
           style={{ color: "var(--blue-color)" }}
         />
       </head>
-      <body>
+      <section>
         <GoogleTagManagerNoScript />
         <Prestations />
-      </body>
+      </section>
     </Layout>
   );
 }

@@ -16,7 +16,7 @@ export default function Page() {
         <GoogleTagManager />
         <Title title="Tarifs" style={{ color: "var(--blue-color)" }} />
       </head>
-      <body className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
+      <section className="flex flex-col md:flex-row justify-center items-stretch md:space-x-6 px-5 pb-5">
         <GoogleTagManagerNoScript />
         <SectionPrice title="Tarifs">
           <ul className="flex justify-center items-center h-full pb-10">
@@ -40,7 +40,7 @@ export default function Page() {
         <SectionPrice title="Moyens de paiement acceptés">
           <li>Chèques, espèces et carte bancaire.</li>
         </SectionPrice>
-      </body>
+      </section>
     </Layout>
   );
 }

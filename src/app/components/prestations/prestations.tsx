@@ -10,12 +10,12 @@ export default function Prestations() {
         {" "}
         <GoogleTagManager />
       </head>
-      <body className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-4 pr-4">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-4 pr-4">
         <GoogleTagManagerNoScript />
         {prestations.map((prestation) => (
           <Card key={prestation.id} {...prestation} />
         ))}
-      </body>
+      </section>
     </section>
   );
 }
