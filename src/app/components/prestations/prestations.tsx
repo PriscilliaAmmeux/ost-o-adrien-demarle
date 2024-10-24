@@ -6,12 +6,7 @@ import GoogleTagManagerNoScript from "../googleTagManagerNoScript/googleTagManag
 export default function Prestations() {
   return (
     <section className=" pt-10 pb-10" id="prestations">
-      <head>
-        {" "}
-        <GoogleTagManager />
-      </head>
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-4 pr-4">
-        <GoogleTagManagerNoScript />
         {prestations.map((prestation) => (
           <Card key={prestation.id} {...prestation} />
         ))}
