@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Prestations from "../components/prestations/prestations";
 import Layout from "../ui/layout/layout";
 import Title from "../ui/title/title";
+import GoogleTagManager from "../components/googleTagManager/googleTagManager";
 
 export const metadata: Metadata = {
   title:
@@ -11,12 +12,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Layout>
-      <div className="flex justify-center items-center mt-4 md:mt-0">
+      <head className="flex justify-center items-center mt-4 md:mt-0">
+        <GoogleTagManager />
         <Title
           title="Motifs de consultations"
           style={{ color: "var(--blue-color)" }}
         />
-      </div>
+      </head>
       <Prestations />
     </Layout>
   );
