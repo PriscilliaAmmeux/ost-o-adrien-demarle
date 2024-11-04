@@ -1,7 +1,5 @@
 import Card from "@/app/components/card/card";
 import prestations from "../../../../api/prestations.json";
-import GoogleTagManager from "../googleTagManager/googleTagManager";
-import GoogleTagManagerNoScript from "../googleTagManagerNoScript/googleTagManagerNoScript";
 
 export default function Prestations() {
   return (
