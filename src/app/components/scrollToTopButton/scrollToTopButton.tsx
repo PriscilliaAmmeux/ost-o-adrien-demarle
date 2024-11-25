@@ -40,7 +40,11 @@ export default function ScrollToTopButton() {
           borderRadius: "5px",
           cursor: "pointer",
         }}>
+<<<<<<< HEAD
         ↑ Retour en haut de page
+=======
+        ↑ Top
+>>>>>>> e8719c2 (add button to up page)
       </button>
     </section>
   );
