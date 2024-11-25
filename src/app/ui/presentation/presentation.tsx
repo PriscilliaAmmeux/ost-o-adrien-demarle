@@ -18,7 +18,7 @@ export default function Presentation() {
           </h1>
           <Subtitle subtitle="Diplômé de l’Institut Supérieur d’ostéopathie de Lille" />
           <WhoIAm />
-          <span className="block mt-5">
+          <span className="block mt-4">
             <Subtitle subtitle="Mes formations :" />
           </span>
           <ul className="mb-5 list-disc ml-10 text-justify">
