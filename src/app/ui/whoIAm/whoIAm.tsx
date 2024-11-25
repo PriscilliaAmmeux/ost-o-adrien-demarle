@@ -1,10 +1,11 @@
+import SectionHomePage from "../sectionHomePage/sectionHomePage";
 import Subtitle from "../subtitle/subtitle";
 
 export default function () {
   return (
-    <section className="max-w-7xl mx-auto p-5 items-center font-sans mb-10">
+    <section>
       <Subtitle subtitle="Qui suis-je ?" />
-      <p>
+      <p className="text-justify">
         Étant petit, mes parents m'avaient emmené voir un acupuncteur, à partir
         de ce moment, j'ai eu un intérêt grandissant pour ce que l'on nomme
         complémentaire. Suite à une scoliose, j'ai fait du kiné avec un kiné qui
