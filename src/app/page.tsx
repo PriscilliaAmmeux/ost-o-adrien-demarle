@@ -23,7 +23,6 @@ export default function Home() {
         <section className="w-full flex flex-col items-center justify-center">
           <Presentation />
           <WhyToConsult />
-          <WhoIAm />
         </section>
         <Analytics />
         <Cookies />

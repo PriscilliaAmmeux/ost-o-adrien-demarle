@@ -1,24 +1,18 @@
-import Subtitle from "../subtitle/subtitle";
+import SectionHomePage from "../sectionHomePage/sectionHomePage";
 
 export default function WhyToConsult() {
   return (
-    <section className="max-w-7xl mx-auto p-5 items-center font-sans">
-      <section>
-        <Subtitle
-          subtitle="Vous cherchez une solution pour des douleurs comme un mal de dos,
-          sciatique...?"
-        />
-
-        <p>
+    <section>
+      <SectionHomePage subtitle="Vous cherchez une solution pour des douleurs comme un mal de dos, sciatique...?">
+        <p className="text-justify">
           L'ostéopathie peut apporter un soulagement, aussi bien pour le dos que
           pour le reste du corps! En effet en libérant des tensions et des
           blocages, il est possible d'atténuer des douleurs comme une sciatique,
           mal de dos, cruralgie, tendinite, entorse, névralgie, lumbago etc
         </p>
-      </section>
-      <section>
-        <Subtitle subtitle="Qu'est-ce que l'ostéopathie ?" />
-        <ul>
+      </SectionHomePage>
+      <SectionHomePage subtitle="Qu'est-ce que l'ostéopathie ?">
+        <ul className="text-justify">
           <li>
             L'ostéopathie est une méthode de soin manuelle et naturelle par
             laquelle l'ostéopathe va rechercher les différentes restrictions de
@@ -39,13 +33,12 @@ export default function WhyToConsult() {
             préalable.
           </li>
         </ul>
-      </section>
-      <section>
-        <Subtitle subtitle="À quel âge consulter ?" />
-        <p>
+      </SectionHomePage>
+      <SectionHomePage subtitle="À quel âge consulter ?">
+        <p className="text-justify mb-5">
           À tout âge : bébé, enfant, adulte, sénior, enceinte, post-partum...
         </p>
-      </section>
+      </SectionHomePage>
     </section>
   );
 }
