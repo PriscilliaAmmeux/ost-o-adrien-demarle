@@ -1,5 +1,6 @@
 import Image from "next/image";
 import dataFormations from "../../../../api/formations.json";
+import Subtitle from "../subtitle/subtitle";
 
 export default function Presentation() {
   return (
@@ -13,9 +14,8 @@ export default function Presentation() {
             Ostéopathe sur Comines
           </span>
         </h1>
-        <h3 className="font-bold text-black text-lg mb-2">
-          {"Diplômé de l’Institut Supérieur d’ostéopathie de Lille"}
-        </h3>
+        <Subtitle subtitle="Diplômé de l’Institut Supérieur d’ostéopathie de Lille" />
+
         <p className="mb-2">
           J&apos;ai également effectué plusieurs formations:{" "}
         </p>
