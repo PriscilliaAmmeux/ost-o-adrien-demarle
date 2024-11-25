@@ -5,7 +5,6 @@ import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
 import Cookies from "./components/cookies/cookies";
 import WhyToConsult from "./ui/whyToConsult/whyToConsult";
-import WhoIAm from "./ui/whoIAm/whoIAm";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous",

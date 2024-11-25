@@ -1,4 +1,3 @@
-import SectionHomePage from "../sectionHomePage/sectionHomePage";
 import Subtitle from "../subtitle/subtitle";
 
 export default function () {
