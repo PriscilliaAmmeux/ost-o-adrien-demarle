@@ -7,7 +7,7 @@ export default function WhyToConsult() {
         <p className="text-justify">
           L&apos;ostéopathie peut apporter un soulagement, aussi bien pour le
           dos que pour le reste du corps! En effet en libérant des tensions et
-          des blocages, il est possible d'atténuer des douleurs comme une
+          des blocages, il est possible d&apos;atténuer des douleurs comme une
           sciatique, mal de dos, cruralgie, tendinite, entorse, névralgie,
           lumbago etc
         </p>
