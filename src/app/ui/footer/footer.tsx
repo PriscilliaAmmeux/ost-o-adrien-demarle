@@ -1,3 +1,4 @@
+import ScrollToTopButton from "@/app/components/scrollToTopButton/scrollToTopButton";
 import FrameMaps from "../frameMaps/frameMaps";
 import InfoContact from "../infoContact/infoContact";
 import PubMe from "../pubMe/pubMe";
@@ -22,6 +23,7 @@ export default function Footer() {
       </section>
 
       <PubMe />
+      <ScrollToTopButton />
     </footer>
   );
 }
