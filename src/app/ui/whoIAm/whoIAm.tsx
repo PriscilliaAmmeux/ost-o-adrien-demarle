@@ -1,6 +1,6 @@
 import Subtitle from "../subtitle/subtitle";
 
-export default function () {
+export default function WhoIAm() {
   return (
     <section>
       <Subtitle subtitle="Qui suis-je ?" />
@@ -12,7 +12,7 @@ export default function () {
         j&apos;avais voulu avoir la double compétence. Aujourd&apos;hui,
         j&apos;exerce l&apos;ostéopathie et j&apos;adore ce que je fais. En plus
         de la pratique au cabinet, j&apos;interviens aussi en entreprise ou je
-        prends plaisir à faire découvrir l&apos;ostéopathie!
+        prends plaisir à faire découvrir l&apos;ostéopathie !
       </p>
     </section>
   );
