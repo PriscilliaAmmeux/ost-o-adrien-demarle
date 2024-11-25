@@ -76,7 +76,9 @@ export default function Cookies() {
                 width={100}
                 height={100}
               />
-              <p className="pb-2 font-bold">Salut c'est nous, les COOKIES !</p>
+              <p className="pb-2 font-bold">
+                Salut c&apos;est nous, les COOKIES !
+              </p>
             </div>
 
             <p className="mb-4 ml-2 mr-2 mt-2 text-black">
