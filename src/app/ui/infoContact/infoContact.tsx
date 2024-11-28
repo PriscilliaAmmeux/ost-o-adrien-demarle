@@ -39,6 +39,11 @@ const infoDetails = [
     title: "Siret",
     text: "84130121100014",
   },
+  {
+    title: "Tarif de la consultation",
+    text: "60€ (remboursement mutuelle possible)",
+  },
+  { title: "Moyens de paiement", text: "Chèques, espèces et carte bancaire" },
 ];
 
 export default function InfoContact() {
