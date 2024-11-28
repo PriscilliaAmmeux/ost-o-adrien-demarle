@@ -6,7 +6,18 @@ import WhoIAm from "../whoIAm/whoIAm";
 export default function Presentation() {
   return (
     <>
-      <section className="max-w-7xl mx-auto pl-5 pr-5 flex flex-col md:flex-row items-center font-sans text-gray-800 mt-10 mb-10">
+      <section className="max-w-7xl mx-auto pl-5 pr-5 flex flex-col md:flex-row items-center justify-around font-sans text-gray-800 mt-10 mb-10">
+        <div className="md:w-1/2">
+          <Image
+            src={"/consult.webp"}
+            alt="photo de consultation avec une patiente enceinte"
+            className="rounded-xl flex-shrink-0 shadow-lg"
+            security="restricted"
+            width={400}
+            height={400}
+          />
+        </div>
+
         <div className="md:w-1/2">
           <h1
             className="text-2xl md:text-4xl font-bold mb-5 flex flex-col "
@@ -28,16 +39,6 @@ export default function Presentation() {
               </li>
             ))}
           </ul>
-        </div>
-        <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Image
-            src={"/portrait.webp"}
-            alt="photo profil"
-            className="rounded-xl flex-shrink-0 shadow-lg"
-            security="restricted"
-            width={400}
-            height={400}
-          />
         </div>
       </section>
     </>

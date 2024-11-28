@@ -5,6 +5,7 @@ interface TitleProps {
   title: string;
   Icon?: IconType; // Icon is still optional
   style?: React.CSSProperties;
+  
 }
 
 const Title: React.FC<TitleProps> = ({ title, Icon, style }) => (

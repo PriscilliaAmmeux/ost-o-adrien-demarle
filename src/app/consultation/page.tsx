@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Layout>
-      <head className="flex justify-center items-center mt-4 md:mt-0">
+      <section className="flex justify-center items-center">
         <Title
           title="Motifs de consultations"
           style={{ color: "var(--blue-color)" }}
         />
-      </head>
+      </section>
       <section>
         <Prestations />
       </section>
