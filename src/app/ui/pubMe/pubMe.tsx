@@ -1,6 +1,6 @@
 export default function PubMe() {
   return (
-    <section className="flex flex-col md:flex-row gap-2 items-center justify-center">
+    <section className="flex flex-col md:flex-row gap-2 items-center justify-center pb-20 md:pb-0">
       <p className="italic">
         Créé par <span className="font-bold">Priscillia Ammeux</span>
       </p>
