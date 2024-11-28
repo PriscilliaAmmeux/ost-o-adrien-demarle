@@ -66,7 +66,7 @@ export default function Burger() {
             onClick={handleCloseMenu}>
             <FaTimes className="cursor-pointer" />
           </button>
-          
+
           <NavLink
             href="/"
             title="Accueil"
@@ -81,13 +81,7 @@ export default function Burger() {
             isActive={true}
             className="text-lg"
           />
-          <NavLink
-            href="/price"
-            title="Tarifs"
-            onClick={handleCloseMenu}
-            isActive={true}
-            className="text-lg"
-          />
+
           <span className="mt-10">
             <Appointment />
           </span>

@@ -26,7 +26,6 @@ export default function navBar() {
           title="Motifs de consultations"
           isActive={true}
         />
-        <NavLink href="/price" title="Tarifs" isActive={true} />
         <Appointment />
       </nav>
     </section>
