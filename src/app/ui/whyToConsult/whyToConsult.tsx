@@ -43,9 +43,10 @@ export default function WhyToConsult() {
       </SectionHomePage>
       <SectionHomePage subtitle="Comment se déroule une séance d'ostéopathie ?">
         <p className="text-justify mb-5">
-          La consultation d'ostéopathie dure environ 45 minutes et se compose de
-          trois grandes parties : l'anamnèse (entretien), l'examen clinique et
-          le traitement ostéopathique. Pas besoin de se déshabiller.
+          La consultation d&aposostéopathie dure environ 45 minutes et se
+          compose de trois grandes parties : l&aposanamnèse (entretien),
+          l&aposexamen clinique et le traitement ostéopathique. Pas besoin de se
+          déshabiller.
         </p>
       </SectionHomePage>
     </section>
