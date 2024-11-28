@@ -20,8 +20,8 @@ export default function Home() {
       <section className="flex flex-col items-center justify-between">
         <Header />
         <section className="w-full flex flex-col items-center justify-center">
-          <Presentation />
           <WhyToConsult />
+          <Presentation />
         </section>
         <Analytics />
         <Cookies />
