@@ -24,7 +24,7 @@ export default function WhyToConsult() {
             patient.
           </li>
           <li>
-            &apos;ostéopathie s&apos;appuie sur le principe que l&apos;etre
+            L&apos;ostéopathie s&apos;appuie sur le principe que l&apos;etre
             humain est une unité fonctionnelle qui possède des mécanismes
             d&apos;autorégulation et que la structure et la fonction sont en
             lien.
@@ -37,8 +37,15 @@ export default function WhyToConsult() {
         </ul>
       </SectionHomePage>
       <SectionHomePage subtitle="À quel âge consulter ?">
-        <p className="text-justify mb-5">
+        <p className="text-justify">
           À tout âge : bébé, enfant, adulte, sénior, enceinte, post-partum...
+        </p>
+      </SectionHomePage>
+      <SectionHomePage subtitle="Comment se déroule une séance d'ostéopathie ?">
+        <p className="text-justify mb-5">
+          La consultation d'ostéopathie dure environ 45 minutes et se compose de
+          trois grandes parties : l'anamnèse (entretien), l'examen clinique et
+          le traitement ostéopathique. Pas besoin de se déshabiller.
         </p>
       </SectionHomePage>
     </section>
