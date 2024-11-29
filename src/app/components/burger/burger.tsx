@@ -43,7 +43,7 @@ export default function Burger() {
 
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold pl-2">Adrien Demarle</h2>
-          <h3 className="text-xl">Ostéophate DO</h3>
+          <h3 className="text-xl">Ostéopathe DO</h3>
         </div>
 
         <button
