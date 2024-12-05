@@ -22,7 +22,7 @@ const infoPractice = [
   },
   {
     title: "Informations pratiques",
-    text: "Rez-de-chaussée.",
+    text: "Rez-de-chaussée. Rendez-vous en urgence possible.",
   },
 ];
 
