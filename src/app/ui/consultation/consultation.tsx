@@ -1,5 +1,4 @@
-import BulletList from "@/app/components/bulletList/bulletList";
-import SectionHomePage from "../sectionHomePage/sectionHomePage";
+import DropdownList from "@/app/components/dropdownList/DropdownList";
 
 export default function Consultation() {
   const items = [
@@ -34,9 +33,6 @@ export default function Consultation() {
     { id: 20, name: "Douleurs en lien avec de l'arthrose/chute" },
     { id: 21, name: "QVT (Qualité de Vie au Travail)" },
   ];
-  return (
-    <SectionHomePage subtitle="Motifs de consultation">
-      <BulletList items={items} />
-    </SectionHomePage>
-  );
+
+  return <DropdownList title="Motifs de consultation" items={items} />;
 }
