@@ -46,9 +46,9 @@ export default function Vision() {
         </SectionHomePage>
         <SectionHomePage subtitle="Quelle est ma vision de l'ostéopathie et avec quelles techniques pourrais-je vous aider?">
           <p className="text-justify">
-            J'aime aller de l'ostéopathie traditionnelle à celle plus moderne,
-            du côté mécanique/rebouteux au côté plus intuitif/dans le ressenti.
-            J'utilise ainsi :
+            J&apos;aime aller de l&apos;ostéopathie traditionnelle à celle plus
+            moderne, du côté mécanique/rebouteux au côté plus intuitif/dans le
+            ressenti. J&apos;utilise ainsi :
           </p>
           <BulletList
             items={[

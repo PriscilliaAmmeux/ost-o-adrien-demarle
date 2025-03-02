@@ -19,7 +19,7 @@ export default function WhyToConsult() {
             En réduisant les tensions musculaires et les blocages articulaires,
             vous retrouverez de la mobilité réduisant ainsi vos douleurs. Que
             vous soyez sportif, femme enceinte ou simplement en recherchant un
-            meilleur bien-être, l'ostéopathie est adaptée à tous.
+            meilleur bien-être, l&apos;ostéopathie est adaptée à tous.
           </p>
         </SectionHomePage>
       </div>
