@@ -5,6 +5,8 @@ import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
 import Cookies from "./components/cookies/cookies";
 import WhyToConsult from "./ui/whyToConsult/whyToConsult";
+import App from "next/app";
+import Appointment from "./ui/appointment/appointment";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous",
@@ -19,9 +21,10 @@ export default function Home() {
     <Layout>
       <section className="flex flex-col items-center justify-between">
         <Header />
-        <section className="w-full flex flex-col items-center justify-center">
+        <section className="w-full flex flex-col items-center justify-center mb-5">
           <WhyToConsult />
           <Presentation />
+          <Appointment />
         </section>
         <Analytics />
         <Cookies />
