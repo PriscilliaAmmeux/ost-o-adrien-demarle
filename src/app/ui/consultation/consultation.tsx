@@ -1,4 +1,4 @@
-import DropdownList from "@/app/components/dropdownList/DropdownList";
+import DropdownList from "./../../components/dropdownList/dropdownList";
 
 export default function Consultation() {
   const items = [

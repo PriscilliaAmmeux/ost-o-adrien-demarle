@@ -1,4 +1,4 @@
-import DropdownList from "@/app/components/dropdownList/DropdownList";
+import DropdownList from "./../../components/dropdownList/dropdownList";
 import dataFormations from "../../../../api/formations.json";
 
 export default function Formations() {
