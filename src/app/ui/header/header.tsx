@@ -25,11 +25,11 @@ export default function Header() {
           <h2 className="text-4xl font-bold text-white pb-5">
             Adrien Demarle Ostéopathe à Comines
           </h2>
-          <div>
+          <div className="flex flex-col md:flex-row max-w-2xl mx-auto">
             <Appointment />
             <Button
-              type={"button"}
-              text={"06 37 05 96 79"}
+              type="button"
+              text="06 37 05 96 79"
               ariaLabel="Mon numéro de téléphone : 0637059679"
               className="md:ml-5 md:mt-0 mt-1"
             />
