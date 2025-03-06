@@ -3,7 +3,6 @@ import Presentation from "./ui/presentation/presentation";
 import type { Metadata } from "next";
 import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
-import Cookies from "./components/cookies/cookies";
 import WhyToConsult from "./ui/whyToConsult/whyToConsult";
 import Appointment from "./ui/appointment/appointment";
 import Session from "./ui/session/session";
@@ -11,6 +10,7 @@ import Formation from "./ui/formations/formations";
 import Vision from "./ui/vision/vision";
 import Help from "./ui/help/help";
 import Consultation from "./ui/consultation/consultation";
+import Solution from "./ui/solution/solution";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous",
@@ -23,9 +23,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Layout>
-      <section className="flex flex-col items-center justify-between">
+      <section className="">
         <Header />
-        <section className="w-full flex flex-col items-center justify-center mb-5">
+        <section className="w-full flex flex-col   mb-5">
+          <Solution />
           <WhyToConsult />
           <Vision />
           <Help />

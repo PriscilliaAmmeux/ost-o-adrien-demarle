@@ -5,7 +5,8 @@ export default function Session() {
   return (
     <SectionHomePage subtitle="Comment se déroule une séance d'ostéopathie ?">
       <p className="text-justify">
-        Durée de la consultation : 45 minutes qui se décomposent en 3 parties :
+        La consultation d'ostéopathie dure environ 45 minutes et se compose de
+        trois grandes parties :
       </p>
       <BulletList
         items={[
@@ -15,6 +16,10 @@ export default function Session() {
         ]}
       />
       <p className="text-align">Pas besoin de se déshabiller.</p>
+      <p className="italic pt-5">
+        Il est à noter que l'ostéopathie est une thérapie de première intention,
+        c'est-à-dire sans nécessité de passer par un médecin au préalable.
+      </p>
     </SectionHomePage>
   );
 }

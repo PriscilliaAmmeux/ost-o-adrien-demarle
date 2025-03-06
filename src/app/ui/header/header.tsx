@@ -27,17 +27,13 @@ export default function Header() {
           </h2>
           <div className="flex flex-col md:flex-row max-w-2xl mx-auto">
             <Appointment />
-            <Button
-              type="button"
-              text="06 37 05 96 79"
-              ariaLabel="Mon numéro de téléphone : 0637059679"
-              className="md:ml-5 md:mt-0 mt-1"
-            />
           </div>
         </section>
 
         <section className="flex flex-col justify-center w-full text-xl font-bold text-white pb-5 text-center md:text-left md:w-1/3 md:ml-10">
-          <p>Adresse: 47 Rue Marceau, 59560 Comines</p>
+          <p>47 Rue Marceau 59560 Comines</p>
+          <p></p>
+          <p>06 37 05 96 79</p>
         </section>
       </div>
     </header>
