@@ -23,7 +23,7 @@ export default function Presentation() {
           <Appointment />
         </div>
       </div>
-      <div className="w-full md:w-1/3">
+      <div className="w-full md:w-1/3 mt-5 mb-5">
         <Image
           src={"/consult.webp"}
           alt="photo de manipulation d'ostéopathie"
