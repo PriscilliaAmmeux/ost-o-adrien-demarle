@@ -35,8 +35,6 @@ export default function Home() {
           <Consultation />
           <Appointment />
         </section>
-
-        <Cookies />
       </section>
     </Layout>
   );

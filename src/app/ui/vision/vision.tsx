@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Vision() {
   return (
     <section className="max-w-7xl mx-auto pl-5 pr-5 flex flex-col md:flex-row items-center font-sans text-gray-800 ">
-      <div className="md:w-1/2 ">
+      <div className="md:w-1/2 hidden md:block ">
         <Image
           src={"/consult.webp"}
           alt="photo de consultation avec une patiente enceinte"
@@ -59,6 +59,16 @@ export default function Vision() {
             ]}
           />
         </SectionHomePage>
+      </div>
+      <div className="md:w-1/2 block md:hidden ">
+        <Image
+          src={"/consult.webp"}
+          alt="photo de consultation avec une patiente enceinte"
+          className="rounded-xl flex-shrink-0 shadow-lg"
+          security="restricted"
+          width={400}
+          height={400}
+        />
       </div>
     </section>
   );
