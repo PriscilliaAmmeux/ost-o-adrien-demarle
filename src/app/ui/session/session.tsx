@@ -18,7 +18,7 @@ export default function Session() {
       <p className="text-align">Pas besoin de se déshabiller.</p>
       <p className="italic pt-5">
         Il est à noter que l&apos;ostéopathie est une thérapie de première
-        intention, c'est-à-dire sans nécessité de passer par un médecin au
+        intention, c&apos;est-à-dire sans nécessité de passer par un médecin au
         préalable.
       </p>
     </SectionHomePage>
