@@ -1,38 +1,72 @@
+import Title from "../title/title";
 import DropdownList from "./../../components/dropdownList/dropdownList";
 
 export default function Consultation() {
-  const items = [
+  const itemsForInfantsAndChildren = [
     { id: 1, name: "Difficulté à tourner la tête d'un côté (plagiocéphalie)" },
     { id: 2, name: "Reflux gastro-oesophagien (RGO)" },
     {
       id: 3,
       name: "Accouchement difficile (péridurale, césarienne, forceps, ventouse, cordon)",
     },
-    { id: 4, name: "L'ostéopathie pour les femmes enceintes" },
-    { id: 5, name: "Prévention, préparation à l'accouchement" },
-    { id: 6, name: "Bilan post-partum" },
-    { id: 7, name: "Douleurs costales, ligamentaires" },
-    { id: 8, name: "Bébé qui ne se retourne pas" },
-    { id: 9, name: "L'ostéopathie pour les sportifs" },
-    { id: 10, name: "Entorses, tendinites, tendinopathies" },
-    { id: 11, name: "Suite à une déchirure musculaire, fracture" },
-    { id: 12, name: "Syndrome de l'essuie glace, pubalgie" },
-    { id: 13, name: "L'ostéopathie pour les adultes" },
+  ];
+
+  const itemsForPregnantWomen = [
+    { id: 4, name: "Prévention, préparation à l'accouchement" },
+    { id: 5, name: "Bilan post-partum" },
+    { id: 6, name: "Douleurs costales, ligamentaires" },
+    { id: 7, name: "Bébé qui ne se retourne pas" },
+  ];
+
+  const itemsForAthletes = [
+    { id: 8, name: "Entorses, tendinites, tendinopathies" },
+    { id: 9, name: "Suite à une déchirure musculaire, fracture" },
+    { id: 10, name: "Syndrome de l'essuie glace, pubalgie" },
+  ];
+
+  const itemsForAdults = [
     {
-      id: 14,
+      id: 11,
       name: "Douleurs : lumbago, lombalgies, dorsalgies, cervicalgies",
     },
     {
-      id: 15,
+      id: 12,
       name: "Névralgies : sciatique, cruralgie, névralgie intercostales, névralgie cervico-brachiale",
     },
-    { id: 16, name: "Douleurs/manque de mobilité suite à un traumatisme" },
-    { id: 17, name: "L'ostéopathie pour les séniors" },
-    { id: 18, name: "Suites opératoires (cicatrices, prothèse hanche/genou)" },
-    { id: 19, name: "Certaines formes de vertiges et d'acouphènes" },
-    { id: 20, name: "Douleurs en lien avec de l'arthrose/chute" },
-    { id: 21, name: "QVT (Qualité de Vie au Travail)" },
+    { id: 13, name: "Douleurs/manque de mobilité suite à un traumatisme" },
   ];
 
-  return <DropdownList title="Motifs de consultation" items={items} />;
+  const itemsForSeniors = [
+    { id: 14, name: "Suites opératoires (cicatrices, prothèse hanche/genou)" },
+    { id: 15, name: "Certaines formes de vertiges et d'acouphènes" },
+    { id: 16, name: "Douleurs en lien avec de l'arthrose/chute" },
+  ];
+
+  return (
+    <div className="bg-gray-100 p-8 mb-5">
+      <Title title="Motif de consultations" />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <DropdownList
+          title="L'ostéopathie pour les nourrissons et les enfants"
+          items={itemsForInfantsAndChildren}
+        />
+        <DropdownList
+          title="L'ostéopathie pour les femmes enceintes"
+          items={itemsForPregnantWomen}
+        />
+        <DropdownList
+          title="L'ostéopathie pour les sportifs"
+          items={itemsForAthletes}
+        />
+        <DropdownList
+          title="L'ostéopathie pour les adultes"
+          items={itemsForAdults}
+        />
+        <DropdownList
+          title="L'ostéopathie pour les séniors"
+          items={itemsForSeniors}
+        />
+      </div>
+    </div>
+  );
 }
