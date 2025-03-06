@@ -7,15 +7,15 @@ export default function Presentation() {
   return (
     <section
       style={{ background: "var(--blue-color-light)" }}
-      className="w-full flex flex-col md:flex-row items-center font-sans text-gray-800 mt-10 mb-10 pt-5 pb-5">
-      <div className="w-full md:w-1/3 hidden md:block">
+      className="w-full flex flex-col md:flex-row items-center font-sans text-gray-800 mt-10 md:mb-10 pt-5 pb-5">
+      <div className="w-full md:w-1/3">
         <Image
-          src={"/manipulation2.webp"}
+          src={"/consult.webp"}
           alt="photo de manipulation d'ostéopathie"
           className="rounded-xl flex-shrink-0 shadow-lg mx-auto md:ml-5 md:mr-5"
           security="restricted"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
         />
       </div>
 
@@ -33,16 +33,6 @@ export default function Presentation() {
         <div className="mt-5">
           <Appointment />
         </div>
-      </div>
-      <div className="w-full md:w-1/3  block md:hidden m-5">
-        <Image
-          src={"/manipulation2.webp"}
-          alt="photo de manipulation d'ostéopathie"
-          className="rounded-xl flex-shrink-0 shadow-lg mx-auto md:ml-5 md:mr-5"
-          security="restricted"
-          width={400}
-          height={400}
-        />
       </div>
     </section>
   );
