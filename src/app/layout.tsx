@@ -17,12 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <GoogleTagManager gtmId="GTM-N8LT7KXK" />
+      <GoogleTagManager gtmId="GTM-5FMD5G9K" />
       <body className={inter.className}>
         {" "}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-N8LT7KXK"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5FMD5G9K"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}></iframe>
