@@ -13,7 +13,7 @@ export default function Document() {
           property="og:description"
           content="Adrien Demarle, ostéopathe D.O. diplômé de l’Institut Supérieur d’Ostéopathie de Lille, propose des soins adaptés pour bébés, enfants, adultes, séniors et sportifs à Comines et ses alentours. Rendez-vous au cabinet ou en entreprise."
         />
-        <meta property="og:image" content="/public/adrienImg.webp" />
+        <meta property="og:image" content="/public/logo.webp" />
         <meta
           property="og:url"
           content="https://www.adrien-demarle-osteopathe.fr/"
