@@ -41,7 +41,7 @@ const infoDetails = [
   },
   {
     title: "Tarif de la consultation",
-    text: "60€ (remboursement mutuelle possible. Nos voisins les belges pourront bénéficier d'un remboursement de leur mutuelle, d'ici fin mars 2025)",
+    text: "60€ (Agréée mutuelle France et Belgique)",
   },
   { title: "Moyens de paiement", text: "Chèques, espèces et carte bancaire" },
 ];
