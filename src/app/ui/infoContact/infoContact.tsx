@@ -41,7 +41,7 @@ const infoDetails = [
   },
   {
     title: "Tarif de la consultation",
-    text: "60€ (Agréée mutuelle France et Belgique)",
+    text: "60€ (Agréé mutuelle France et Belgique)",
   },
   { title: "Moyens de paiement", text: "Chèques, espèces et carte bancaire" },
 ];

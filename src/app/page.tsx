@@ -27,7 +27,7 @@ export default function Home() {
         <Header />
         <section className="w-full flex flex-col mb-5">
           <p className="italic mt-10 flex text-center flex justify-center ">
-            Agréée mutuelle France et Belgique
+            Agréé mutuelle France et Belgique
           </p>
           <Solution />
           <WhyToConsult />
