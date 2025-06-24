@@ -17,6 +17,9 @@ export default function Footer() {
         <a href="/legalNotices" className=" hover:font-bold cursor-pointer">
           Mentions légales
         </a>
+        <a href="/privacy" className=" hover:font-bold cursor-pointer">
+          Politiques de confitentialité
+        </a>
         <p>© {currentYear} Adrien Demarle. Tous droits réservés.</p>
         <SocialNetwork />
       </section>
@@ -24,5 +27,4 @@ export default function Footer() {
       <PubMe />
     </footer>
   );
-
 }
