@@ -1,5 +1,4 @@
 import Presentation from "./ui/presentation/presentation";
-//import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import Layout from "./ui/layout/layout";
 import Header from "./ui/header/header";
@@ -11,6 +10,7 @@ import Vision from "./ui/vision/vision";
 import Help from "./ui/help/help";
 import Consultation from "./ui/consultation/consultation";
 import Solution from "./ui/solution/solution";
+import CookieConsent from "./components/cookieConsent/cookieConsent";
 
 export const metadata: Metadata = {
   title: "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous",

@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Footer from "../footer/footer";
 import Navigation from "../navigation/navigation";
-
+import CookieConsent from "@/app/components/cookieConsent/cookieConsent";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -21,7 +21,7 @@ export default function Layout({ children }: LayoutProps) {
       <Navigation />
       {children}
       <Footer />
-     
+      <CookieConsent />
     </section>
   );
 }

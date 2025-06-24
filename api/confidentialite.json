@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Données personnelles",
+    "content": [
+      {
+        "text": "Ce site ne propose aucun formulaire de contact, d’inscription ou de commentaire. Aucune information personnelle n’est collectée automatiquement ou manuellement via le site."
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "title": "Suivi et mesures d’audience",
+    "content": [
+      {
+        "text": "Ce site utilise Google Analytics, un service d’analyse de site Internet fourni par Google Inc. Google Analytics utilise des cookies pour analyser l’utilisation du site par ses utilisateurs. Les données générées par les cookies concernant votre utilisation du site (y compris votre adresse IP, anonymisée) seront transmises et stockées par Google sur des serveurs situés aux États-Unis."
+      },
+      {
+        "text": "Ce traitement repose sur votre consentement. Aucun cookie de mesure d’audience n’est déposé sans votre accord préalable."
+      },
+      {
+        "text": "Vous pouvez à tout moment modifier vos préférences via la bannière de cookies présente sur le site."
+      }
+    ]
+  }
+]

@@ -1,28 +1,24 @@
-import { Metadata } from "next";
-import Title from "../ui/title/title";
-import { GiInjustice } from "react-icons/gi";
 import Layout from "../ui/layout/layout";
-import legalNotices from "../../../api/legalNotices.json";
+import confidentialite from "../../../api/confidentialite.json";
 
-export const metadata: Metadata = {
-  title:
-    "Mentions légales - Adrien Demarle - Ostéopathe D.O - Comines et alentours",
-};
+import Title from "../ui/title/title";
+import { GiPadlock } from "react-icons/gi";
 
-export default function LegalNotices() {
+export default function Privacy() {
   return (
     <Layout>
       <div className="flex justify-center items-center my-10">
+        {" "}
         <Title
-          Icon={GiInjustice}
-          title="Mentions légales"
+          Icon={GiPadlock}
+          title="Politique de confidentialité"
           style={{ color: "var(--blue-color)" }}
         />
       </div>
 
       <section className="p-4">
         <div className="space-y-8">
-          {legalNotices.map((notice) => (
+          {confidentialite.map((notice) => (
             <div key={notice.id} className="border-b pb-4">
               <h3 className="text-xl font-bold mb-2">{notice.title}</h3>
               {Array.isArray(notice.content) ? (
