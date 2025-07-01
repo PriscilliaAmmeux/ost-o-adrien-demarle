@@ -23,7 +23,7 @@
     "sitemap": "^8.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
+    "@playwright/test": "^1.53.2",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
