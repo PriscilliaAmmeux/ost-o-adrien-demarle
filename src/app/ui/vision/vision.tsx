@@ -17,7 +17,7 @@ export default function Vision() {
       </div>
       <div className="md:w-1/2">
         <SectionHomePage subtitle="Quelle est ma vision de l'ostéopathie et avec quelles techniques pourrais-je vous aider?">
-          <p className="text-justify">
+          <p>
             J&apos;aime aller de l&apos;ostéopathie traditionnelle à celle plus
             moderne, du côté mécanique/rebouteux au côté plus intuitif/dans le
             ressenti. J&apos;utilise ainsi :
