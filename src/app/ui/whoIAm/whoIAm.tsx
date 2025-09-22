@@ -4,7 +4,7 @@ export default function WhoIAm() {
   return (
     <section>
       <Subtitle subtitle="Qui suis-je ?" />
-      <p className="text-justify">
+      <p>
         Étant petit, mes parents m&apos;avaient emmené voir un acupuncteur, à
         partir de ce moment, j&apos;ai eu un intérêt grandissant pour ce que
         l&apos;on nomme complémentaire. Suite à une scoliose, j&apos;ai fait du

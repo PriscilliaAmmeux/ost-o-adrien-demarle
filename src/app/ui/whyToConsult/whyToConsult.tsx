@@ -16,7 +16,7 @@ export default function WhyToConsult() {
       </div>
       <div className="md:w-1/2 ">
         <SectionHomePage subtitle="Il est temps que votre situation s'améliore !">
-          <p className="text-justify">
+          <p>
             En réduisant les tensions musculaires et les blocages articulaires,
             vous retrouverez de la mobilité réduisant ainsi vos douleurs. Que
             vous soyez sportif, femme enceinte ou simplement en recherchant un
