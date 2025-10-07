@@ -13,11 +13,27 @@ import Solution from "./ui/solution/solution";
 import CookieConsent from "./components/cookieConsent/cookieConsent";
 
 export const metadata: Metadata = {
-  title: "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous",
+  title:
+    "Adrien Demarle - Ostéopathe D.O. à Comines | Soins pour tous, bébés, adultes, sportifs",
   description:
-    "Adrien Demarle, ostéopathe D.O. diplômé de l’Institut Supérieur d’Ostéopathie de Lille, propose des soins adaptés pour bébés, enfants, adultes, séniors et sportifs à Comines et ses alentours. Rendez-vous au cabinet ou en entreprise.",
-  keywords:
-    "ostéopathe Comines, ostéopathie Comines, soins ostéopathiques Comines, ostéopathe Lille, ostéopathe Warneton, ostéopathe Quesnoy-sur-Deûle, ostéopathe Halluin, ostéopathe Deûlémont, ostéopathie sportifs Comines, ostéopathie bébés Comines, Adrien Demarle ostéopathe",
+    "Adrien Demarle, ostéopathe D.O. à Comines, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, propose des soins personnalisés pour bébés, enfants, adultes, seniors et sportifs. Soulagement des douleurs, amélioration de la mobilité et accompagnement postnatal. Agréé mutuelles France et Belgique.",
+  keywords: [
+    "osteopathe-comines",
+    "osteopathie-comines",
+    "osteopathe-adrien-demarle",
+    "osteopathe-lille",
+    "osteopathe-warneton",
+    "osteopathe-quesnoy-sur-deule",
+    "osteopathe-halluin",
+    "osteopathe-deulemont",
+    "osteopathie-bebe-comines",
+    "osteopathie-adulte-comines",
+    "osteopathie-sportif-comines",
+    "osteopathie-senior-comines",
+    "osteopathie-femme-enceinte-comines",
+    "soins-osteopathiques-comines",
+    "consultation-osteopathie-comines",
+  ],
 };
 
 export default function Home() {
