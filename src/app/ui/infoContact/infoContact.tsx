@@ -59,7 +59,7 @@ export default function InfoContact() {
           <strong>Email:</strong>{" "}
           <a
             href="mailto:demarle.adrien.osteopathe@gmail.com"
-            className="hover:font-bold hover:text-blue-900">
+            className="hover:font-bold">
             demarle.adrien.osteopathe@gmail.com
           </a>
         </p>
