@@ -1,6 +1,5 @@
 import Title from "@/app/ui/title/title";
 
-
 interface LegalBlockProps {
   icon: React.ElementType;
   title: string;
@@ -23,8 +22,14 @@ export default function LegalBlock({
           style={{ color: "var(--blue-color)" }}
         />
       </div>
-      <section className="p-4 md:p-8 max-w-3xl mx-auto">
-        <div className="bg-white/80 border border-blue-100 rounded-xl shadow-md p-8 space-y-8">
+      <section className="relative w-full px-0 md:px-0">
+        {/* Background image flou sur toute la largeur */}
+        <div
+          className="absolute inset-0 -z-10 bg-cover bg-center opacity-30 blur-sm"
+          style={{ backgroundImage: "url('/bg-justice.webp')" }}
+          aria-hidden="true"
+        />
+        <div className="max-w-3xl mx-auto bg-white/80 border border-blue-100 rounded-xl shadow-md p-8 space-y-8 relative">
           {data.map((notice) => (
             <div key={notice.id}>
               <h3 className="text-xl font-bold mb-2 text-blue-900 flex items-center gap-2">
