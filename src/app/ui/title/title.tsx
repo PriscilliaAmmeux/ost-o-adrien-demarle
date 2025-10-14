@@ -3,9 +3,8 @@ import { IconType } from "react-icons";
 
 interface TitleProps {
   title: string;
-  Icon?: IconType; // Icon is still optional
+  Icon?: React.ElementType; // Icon is still optional
   style?: React.CSSProperties;
-  
 }
 
 const Title: React.FC<TitleProps> = ({ title, Icon, style }) => (
